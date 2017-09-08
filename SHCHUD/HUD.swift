@@ -28,6 +28,8 @@ class HUD: UIView {
   let imageView = UIImageView()
   let label = UILabel()
   
+  let progressView = ProgressView()
+  
   var imageSize = CGSize(width: 50, height: 50)
   var labelSize = CGSize.zero
   
@@ -223,9 +225,9 @@ extension HUD {
               guard let base = self else { return }
               if base.stopAnimation { return }
               base.backView.frame = CGRect(x: 0, y: -44, width: base.frame.width, height: 44)
-            }, completion: { [weak self] (true) in
-              guard let base = self else { return }
-              base.GCDLock = false
+              }, completion: { [weak self] (true) in
+                guard let base = self else { return }
+                base.GCDLock = false
             })
           }
       })
