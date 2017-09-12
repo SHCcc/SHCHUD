@@ -161,7 +161,7 @@ extension HUD {
     RunLoop.main.add(timer!, forMode: RunLoopMode.commonModes)
   }
   
-  func endTimer() {
+  @objc func endTimer() {
     dissmiss()
     stopAnimation = false
   }
@@ -223,9 +223,9 @@ extension HUD {
               guard let base = self else { return }
               if base.stopAnimation { return }
               base.backView.frame = CGRect(x: 0, y: -44, width: base.frame.width, height: 44)
-            }, completion: { [weak self] (true) in
-              guard let base = self else { return }
-              base.GCDLock = false
+              }, completion: { [weak self] (true) in
+                guard let base = self else { return }
+                base.GCDLock = false
             })
           }
       })
@@ -257,7 +257,8 @@ extension HUD {
 extension HUD {
   func calculateSize(string: String) {
     // 计算文本
-    let attributes = [NSFontAttributeName: UIFont.systemFont(ofSize: 16)]
+    let font = UIFont.systemFont(ofSize: 16)
+    let attributes = [NSAttributedStringKey.font : font]
     let option = NSStringDrawingOptions.usesLineFragmentOrigin
     let size = CGSize(width: 300, height: 300)
     let rect = string.boundingRect(with: size, options: option, attributes: attributes, context: nil)
@@ -295,4 +296,5 @@ extension HUD {
     sharedView.dissmiss()
   }
 }
+
 
