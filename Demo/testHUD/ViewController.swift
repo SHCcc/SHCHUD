@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import SHCHUD
 
 class ViewController: UIViewController {
 

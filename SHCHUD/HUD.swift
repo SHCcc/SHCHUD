@@ -19,7 +19,7 @@ enum Notice {
   case bottom
 }
 
-class HUD: UIView {
+public class HUD: UIView {
   static let sharedView = HUD()
   
   var GCDLock = false
@@ -27,8 +27,6 @@ class HUD: UIView {
   let backView = UIView()
   let imageView = UIImageView()
   let label = UILabel()
-  
-  let progressView = ProgressView()
   
   var imageSize = CGSize(width: 50, height: 50)
   var labelSize = CGSize.zero
@@ -163,7 +161,7 @@ extension HUD {
     RunLoop.main.add(timer!, forMode: RunLoopMode.commonModes)
   }
   
-  func endTimer() {
+  @objc func endTimer() {
     dissmiss()
     stopAnimation = false
   }
@@ -259,7 +257,7 @@ extension HUD {
 extension HUD {
   func calculateSize(string: String) {
     // 计算文本
-    let attributes = [NSFontAttributeName: UIFont.systemFont(ofSize: 16)]
+    let attributes = [NSAttributedStringKey.font: UIFont.systemFont(ofSize: 16)]
     let option = NSStringDrawingOptions.usesLineFragmentOrigin
     let size = CGSize(width: 300, height: 300)
     let rect = string.boundingRect(with: size, options: option, attributes: attributes, context: nil)
@@ -268,32 +266,32 @@ extension HUD {
   }
 }
 
-extension HUD {
-  class func show(string status: String) {
+public extension HUD {
+  public class func show(string status: String) {
     sharedView.show(string: status)
   }
   
-  class func show(success status: String) {
+  public class func show(success status: String) {
     sharedView.show(status: .success ,string: status)
   }
   
-  class func show(false status: String) {
+  public class func show(false status: String) {
     sharedView.show(status: .error ,string: status)
   }
   
-  class func showTop(string status: String) {
+  public class func showTop(string status: String) {
     sharedView.notice(type: .top, string: status)
   }
   
-  class func showBottom(string status: String) {
+  public class func showBottom(string status: String) {
     sharedView.notice(type: .bottom, string: status)
   }
   
-  class func showImage(image: UIImage) {
+  public class func showImage(image: UIImage) {
     sharedView.showImage(image: image)
   }
   
-  class func dissmiss() {
+  public class func dissmiss() {
     sharedView.dissmiss()
   }
 }

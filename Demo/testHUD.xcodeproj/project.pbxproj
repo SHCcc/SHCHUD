@@ -12,8 +12,6 @@
 		2017EFB21EBB00160083E899 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2017EFB01EBB00160083E899 /* Main.storyboard */; };
 		2017EFB41EBB00160083E899 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2017EFB31EBB00160083E899 /* Assets.xcassets */; };
 		2017EFB71EBB00160083E899 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2017EFB51EBB00160083E899 /* LaunchScreen.storyboard */; };
-		2017EFBF1EBB02930083E899 /* HUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2017EFBE1EBB02930083E899 /* HUD.swift */; };
-		203181141ED27F2B00A54C97 /* HUDT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 203181131ED27F2B00A54C97 /* HUDT.swift */; };
 		20559C861ECEEEC1004FC747 /* ProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20559C851ECEEEC1004FC747 /* ProgressView.swift */; };
 		2058656F1ECD391000F1394E /* angle-mask.png in Resources */ = {isa = PBXBuildFile; fileRef = 205865631ECD391000F1394E /* angle-mask.png */; };
 		205865701ECD391000F1394E /* angle-mask@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 205865641ECD391000F1394E /* angle-mask@2x.png */; };
@@ -38,8 +36,6 @@
 		2017EFB31EBB00160083E899 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2017EFB61EBB00160083E899 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2017EFB81EBB00160083E899 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2017EFBE1EBB02930083E899 /* HUD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HUD.swift; sourceTree = "<group>"; };
-		203181131ED27F2B00A54C97 /* HUDT.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HUDT.swift; sourceTree = "<group>"; };
 		20559C851ECEEEC1004FC747 /* ProgressView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressView.swift; sourceTree = "<group>"; };
 		205865631ECD391000F1394E /* angle-mask.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "angle-mask.png"; sourceTree = "<group>"; };
 		205865641ECD391000F1394E /* angle-mask@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "angle-mask@2x.png"; sourceTree = "<group>"; };
@@ -94,8 +90,6 @@
 				205865621ECD391000F1394E /* photo */,
 				2017EFAC1EBB00160083E899 /* AppDelegate.swift */,
 				2017EFAE1EBB00160083E899 /* ViewController.swift */,
-				2017EFBE1EBB02930083E899 /* HUD.swift */,
-				203181131ED27F2B00A54C97 /* HUDT.swift */,
 				20559C851ECEEEC1004FC747 /* ProgressView.swift */,
 				2017EFB01EBB00160083E899 /* Main.storyboard */,
 				2017EFB31EBB00160083E899 /* Assets.xcassets */,
@@ -264,9 +258,12 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-testHUD/Pods-testHUD-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SHCHUD/SHCHUD.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SHCHUD.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -280,8 +277,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				203181141ED27F2B00A54C97 /* HUDT.swift in Sources */,
-				2017EFBF1EBB02930083E899 /* HUD.swift in Sources */,
 				2017EFAF1EBB00160083E899 /* ViewController.swift in Sources */,
 				2017EFAD1EBB00160083E899 /* AppDelegate.swift in Sources */,
 				20559C861ECEEEC1004FC747 /* ProgressView.swift in Sources */,
