@@ -66,32 +66,32 @@ class ViewController: UIViewController {
   }
 
   
-  func dissmiss() {
+  @objc func dissmiss() {
     HUD.dissmiss()
     print("dissmiss")
   }
   
-  func success() {
+  @objc func success() {
     HUD.show(success: "加载成功")
     print("success")
   }
   
-  func falses() {
+  @objc func falses() {
     HUD.show(false: "加载失败")
     print("false")
   }
   
-  func top() {
+  @objc func top() {
     HUD.showTop(string: "顶部labelSize.heightlabelSize.heightlabelSize.heightlabelSize.height")
     print("顶部通知")
   }
   
-  func bottom() {
+  @objc func bottom() {
     HUD.showBottom(string: "底部")
     print("底部")
   }
   
-  func image() {
+  @objc func image() {
     HUD.showImage(image: UIImage(named: "angle-mask")!)
     print("图片")
   }
