@@ -10,7 +10,6 @@ s.license      = "MIT"
 s.ios.deployment_target = '8.0'
 s.author             = { "SHCcc" => "578013836@qq.com" }
 s.source       = { :git => "https://github.com/SHCcc/SHCHUD.git", :tag => "1.0.1" }
-s.source_files  = ["SHCHUD/*/**, SHCHUD/**"]
-s.public_header_files = [SHCHUD/SHCHUD.h]
+s.source_files  = ["SHCHUD/*/**", "SHCHUD/**"]
 s.requires_arc = true
 end
