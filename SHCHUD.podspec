@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
 s.name         = "SHCHUD"
-s.version      = "1.0.3"
+s.version      = "1.0.4"
 s.summary      = "A short description of SHCHUD. 这是一个简单的HUD "
 s.description  = "iOS swift HUD "
 s.homepage     = "https://github.com/SHCcc/SHCHUD"
