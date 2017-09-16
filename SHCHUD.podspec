@@ -11,5 +11,6 @@ s.ios.deployment_target = '8.0'
 s.author             = { "SHCcc" => "578013836@qq.com" }
 s.source       = { :git => "https://github.com/SHCcc/SHCHUD.git", :tag => s.version.to_s }
 s.source_files  = ["SHCHUD/*/**", "SHCHUD/**"]
+s.pod_target_xcconfig = { 'SWIFT_VERSION' => '4.0' }
 s.requires_arc = true
 end
