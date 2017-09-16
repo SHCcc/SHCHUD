@@ -7,14 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		08B8C4EA36DEC547586C034E6AB0E165 /* SHCHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D60B7D9F0720C25572FE9204A8F44712 /* SHCHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1FA7F070BBBA51CE87D16A0950A2ED4F /* Pods-testHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F3DE76919B09BCFA9A0ECC6B84AA3BF7 /* Pods-testHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		20B13FBB1F6BAFF5008D5970 /* SHCHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 20B13FBA1F6BAF3F008D5970 /* SHCHUD.h */; };
-		4D64E66F459B4DF2F691E76AEB4CB42E /* HUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 131BDEC6EF81B2C4BE2C2F5CB5ECD21E /* HUD.swift */; };
+		204D715F3EC1CA95AB3811488612A70F /* HUD.h in Headers */ = {isa = PBXBuildFile; fileRef = E5EC595448F4D29FDB46A0ECA51DC20B /* HUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		325449821C27BFA3C3C5E1086800459C /* info@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = DFF15F1D6F882EDAC94B1058DA93A1C4 /* info@2x.png */; };
+		50C97496C5E4F7CFE01F5B581803D7F6 /* HUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 913C0DBDD386E3E57A08FADFFED25B61 /* HUD.swift */; };
 		601D75D86B7BF22733F8125C9C6BD76D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		612C464F5F6BF96B51AD62FB6F3DD8F6 /* angle-mask@3x.png in Sources */ = {isa = PBXBuildFile; fileRef = 51DE374C35F815B4386DF62F9026417F /* angle-mask@3x.png */; };
+		61B4BAA74F409F4ED7C012E57C688C78 /* error@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = 70F964B13EB54E144547EEC8280F2D13 /* error@2x.png */; };
+		645AC4F80908049D179F92924E40FC69 /* success.png in Sources */ = {isa = PBXBuildFile; fileRef = AA5B41FF9BC20AB09056203956D0AAC1 /* success.png */; };
+		702CEAB54D3812B347299F19F7065964 /* angle-mask@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = 0489CABEFDAEA093AC7821E9D1C8649D /* angle-mask@2x.png */; };
 		86C83E2EC538042F88C1B44F2E76A598 /* Pods-testHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C1FBED0699F4D3D79C241BB3E1965D09 /* Pods-testHUD-dummy.m */; };
-		89207D651D8E0068402AC06FC84F003C /* SHCHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A1D6A8CA0C66E95162346251D685002D /* SHCHUD-dummy.m */; };
-		AD2B7BCE4553DD1391908FACC66EA48B /* SHCHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EB62D8A6F9DB2EB9D5BA19D7557CA083 /* SHCHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B3A07E1B6F65A2FB80DCEE47390EE840 /* error.png in Sources */ = {isa = PBXBuildFile; fileRef = EAE85E23F34208138E406B6FBEFC7166 /* error.png */; };
+		C125ED1DFBEBDF77293A3EF946CC8775 /* info.png in Sources */ = {isa = PBXBuildFile; fileRef = CDD479E2B653A8A91A1E3F24872D0E96 /* info.png */; };
+		C9B4122FCAA7F33B1FC5C9FD9F4E191B /* success@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = 1930E800C2A26AFC6F8F0E92EAB08DB3 /* success@2x.png */; };
+		CBC1A04A2A76F9C7EABD5E0820B1D866 /* success@3x.png in Sources */ = {isa = PBXBuildFile; fileRef = 65DC7E97714B702836D36030039989EA /* success@3x.png */; };
 		CD26D1E490A201D6AA8925DBDC1CC6E9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		CDE2E5C2BB051EA7DA30D4E2825727EE /* angle-mask.png in Sources */ = {isa = PBXBuildFile; fileRef = 7684F8E5EF581676F45847E9ABAA391E /* angle-mask.png */; };
+		DC72887FC3682708B40FD71181517873 /* info@3x.png in Sources */ = {isa = PBXBuildFile; fileRef = A50E45A2F8DB3E47B5E60D704A282E69 /* info@3x.png */; };
+		DCF9C483E4D29F97C0DD69D7B063EAEC /* error@3x.png in Sources */ = {isa = PBXBuildFile; fileRef = DD4175A98C221F645F20F5E49592468B /* error@3x.png */; };
+		F678F36172C85C36CED02AF3813170B6 /* SHCHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 86263B52EE70CDDA0840B51641624775 /* SHCHUD-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,26 +42,38 @@
 /* Begin PBXFileReference section */
 		00531A3C7EF795EFE049AE7B82DB472A /* Pods-testHUD-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-testHUD-acknowledgements.plist"; sourceTree = "<group>"; };
 		014106F199812EC688AAA3FC6D3418A2 /* Pods-testHUD-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-testHUD-acknowledgements.markdown"; sourceTree = "<group>"; };
-		08C8057F9172DFE8938AB966FA642205 /* SHCHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SHCHUD.xcconfig; sourceTree = "<group>"; };
+		0489CABEFDAEA093AC7821E9D1C8649D /* angle-mask@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "angle-mask@2x.png"; sourceTree = "<group>"; };
 		0A0AE4103EAD06509BAE8B481C4015F4 /* Pods-testHUD.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-testHUD.debug.xcconfig"; sourceTree = "<group>"; };
 		11269A5CFE639EDF2BEF6AC10D3B28BF /* Pods-testHUD-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-testHUD-frameworks.sh"; sourceTree = "<group>"; };
-		131BDEC6EF81B2C4BE2C2F5CB5ECD21E /* HUD.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HUD.swift; path = SHCHUD/HUD.swift; sourceTree = "<group>"; };
-		20B13FBA1F6BAF3F008D5970 /* SHCHUD.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SHCHUD.h; path = SHCHUD/SHCHUD.h; sourceTree = "<group>"; };
+		1930E800C2A26AFC6F8F0E92EAB08DB3 /* success@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "success@2x.png"; sourceTree = "<group>"; };
 		4D36CF45469D38B13D35335ED23C3764 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		601929C1E40099095AE8F41744B8159C /* SHCHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SHCHUD.modulemap; sourceTree = "<group>"; };
+		51DE374C35F815B4386DF62F9026417F /* angle-mask@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "angle-mask@3x.png"; sourceTree = "<group>"; };
+		537B5CEE3E83AD190B53196141A42477 /* SHCHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SHCHUD.modulemap; sourceTree = "<group>"; };
+		5D824EB0BC639916BAF0E7FF15E03F06 /* SHCHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SHCHUD.xcconfig; sourceTree = "<group>"; };
+		65DC7E97714B702836D36030039989EA /* success@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "success@3x.png"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		70F964B13EB54E144547EEC8280F2D13 /* error@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "error@2x.png"; sourceTree = "<group>"; };
+		7684F8E5EF581676F45847E9ABAA391E /* angle-mask.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "angle-mask.png"; sourceTree = "<group>"; };
 		76FB7B8C1768DEC093759CFB60D970B2 /* Pods-testHUD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-testHUD.release.xcconfig"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A1D6A8CA0C66E95162346251D685002D /* SHCHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SHCHUD-dummy.m"; sourceTree = "<group>"; };
-		AB3B00236038FF3DDE9DF04372E0396B /* Pods_testHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_testHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		86263B52EE70CDDA0840B51641624775 /* SHCHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SHCHUD-dummy.m"; sourceTree = "<group>"; };
+		913C0DBDD386E3E57A08FADFFED25B61 /* HUD.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HUD.swift; path = SHCHUD/HUD.swift; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9564955E828311E5D3F22D95A5960DE9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A50E45A2F8DB3E47B5E60D704A282E69 /* info@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "info@3x.png"; sourceTree = "<group>"; };
+		AA5B41FF9BC20AB09056203956D0AAC1 /* success.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = success.png; sourceTree = "<group>"; };
+		AB3B00236038FF3DDE9DF04372E0396B /* Pods_testHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_testHUD.framework; path = "Pods-testHUD.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDABFE6297B0E42B25A8A0BD9809D4A8 /* Pods-testHUD-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-testHUD-resources.sh"; sourceTree = "<group>"; };
-		BFBA07EDC4FCC09CA462588AAE8CC302 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C1FBED0699F4D3D79C241BB3E1965D09 /* Pods-testHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-testHUD-dummy.m"; sourceTree = "<group>"; };
-		CA9AF27E1D6D10208897B7AEC2ADB838 /* Pods-testHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-testHUD.modulemap"; sourceTree = "<group>"; };
-		E8ADDF5B0B6EA66FFA4E317126767A0F /* SHCHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SHCHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EB62D8A6F9DB2EB9D5BA19D7557CA083 /* SHCHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SHCHUD-umbrella.h"; sourceTree = "<group>"; };
-		ED6EF5DD33C8129169A9B26A856ABC2E /* SHCHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SHCHUD-prefix.pch"; sourceTree = "<group>"; };
+		CA9AF27E1D6D10208897B7AEC2ADB838 /* Pods-testHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-testHUD.modulemap"; sourceTree = "<group>"; };
+		CDD479E2B653A8A91A1E3F24872D0E96 /* info.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = info.png; sourceTree = "<group>"; };
+		D60B7D9F0720C25572FE9204A8F44712 /* SHCHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SHCHUD-umbrella.h"; sourceTree = "<group>"; };
+		DD4175A98C221F645F20F5E49592468B /* error@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "error@3x.png"; sourceTree = "<group>"; };
+		DFF15F1D6F882EDAC94B1058DA93A1C4 /* info@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "info@2x.png"; sourceTree = "<group>"; };
+		E5EC595448F4D29FDB46A0ECA51DC20B /* HUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HUD.h; path = SHCHUD/HUD.h; sourceTree = "<group>"; };
+		E8ADDF5B0B6EA66FFA4E317126767A0F /* SHCHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SHCHUD.framework; path = SHCHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAE85E23F34208138E406B6FBEFC7166 /* error.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = error.png; sourceTree = "<group>"; };
 		F3DE76919B09BCFA9A0ECC6B84AA3BF7 /* Pods-testHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-testHUD-umbrella.h"; sourceTree = "<group>"; };
+		F6F2162042DA9D05D685E24550C57311 /* SHCHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SHCHUD-prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,26 +122,29 @@
 			path = "Target Support Files/Pods-testHUD";
 			sourceTree = "<group>";
 		};
+		69FB876F7066B7CB7FF47BAF1DC2F93E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9564955E828311E5D3F22D95A5960DE9 /* Info.plist */,
+				537B5CEE3E83AD190B53196141A42477 /* SHCHUD.modulemap */,
+				5D824EB0BC639916BAF0E7FF15E03F06 /* SHCHUD.xcconfig */,
+				86263B52EE70CDDA0840B51641624775 /* SHCHUD-dummy.m */,
+				F6F2162042DA9D05D685E24550C57311 /* SHCHUD-prefix.pch */,
+				D60B7D9F0720C25572FE9204A8F44712 /* SHCHUD-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Demo/Pods/Target Support Files/SHCHUD";
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				B110D042886FABF286BBBF30DD3170C9 /* Development Pods */,
+				A60FA11F2A549C4F72BB710BC55E672C /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				89A3854ED9668B099C9B432C9A54D352 /* Products */,
 				13F002C7D9E3D30C0FF3FF3005058EA2 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		84FBF3F3B03415026BC2CCD444E62603 /* SHCHUD */ = {
-			isa = PBXGroup;
-			children = (
-				20B13FBA1F6BAF3F008D5970 /* SHCHUD.h */,
-				131BDEC6EF81B2C4BE2C2F5CB5ECD21E /* HUD.swift */,
-				94AE25333AD819A80A3CFB3DE563FC6A /* Support Files */,
-			);
-			name = SHCHUD;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 		89A3854ED9668B099C9B432C9A54D352 /* Products */ = {
@@ -129,24 +156,22 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		94AE25333AD819A80A3CFB3DE563FC6A /* Support Files */ = {
+		94724DA98B483E67DA69C49F7A1359FD /* SHCHUD */ = {
 			isa = PBXGroup;
 			children = (
-				BFBA07EDC4FCC09CA462588AAE8CC302 /* Info.plist */,
-				601929C1E40099095AE8F41744B8159C /* SHCHUD.modulemap */,
-				08C8057F9172DFE8938AB966FA642205 /* SHCHUD.xcconfig */,
-				A1D6A8CA0C66E95162346251D685002D /* SHCHUD-dummy.m */,
-				ED6EF5DD33C8129169A9B26A856ABC2E /* SHCHUD-prefix.pch */,
-				EB62D8A6F9DB2EB9D5BA19D7557CA083 /* SHCHUD-umbrella.h */,
+				E5EC595448F4D29FDB46A0ECA51DC20B /* HUD.h */,
+				913C0DBDD386E3E57A08FADFFED25B61 /* HUD.swift */,
+				F7316ED975759E4B499C001C399BF605 /* photo */,
+				69FB876F7066B7CB7FF47BAF1DC2F93E /* Support Files */,
 			);
-			name = "Support Files";
-			path = "Demo/Pods/Target Support Files/SHCHUD";
+			name = SHCHUD;
+			path = ../..;
 			sourceTree = "<group>";
 		};
-		B110D042886FABF286BBBF30DD3170C9 /* Development Pods */ = {
+		A60FA11F2A549C4F72BB710BC55E672C /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				84FBF3F3B03415026BC2CCD444E62603 /* SHCHUD */,
+				94724DA98B483E67DA69C49F7A1359FD /* SHCHUD */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -167,15 +192,35 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		F7316ED975759E4B499C001C399BF605 /* photo */ = {
+			isa = PBXGroup;
+			children = (
+				7684F8E5EF581676F45847E9ABAA391E /* angle-mask.png */,
+				0489CABEFDAEA093AC7821E9D1C8649D /* angle-mask@2x.png */,
+				51DE374C35F815B4386DF62F9026417F /* angle-mask@3x.png */,
+				EAE85E23F34208138E406B6FBEFC7166 /* error.png */,
+				70F964B13EB54E144547EEC8280F2D13 /* error@2x.png */,
+				DD4175A98C221F645F20F5E49592468B /* error@3x.png */,
+				CDD479E2B653A8A91A1E3F24872D0E96 /* info.png */,
+				DFF15F1D6F882EDAC94B1058DA93A1C4 /* info@2x.png */,
+				A50E45A2F8DB3E47B5E60D704A282E69 /* info@3x.png */,
+				AA5B41FF9BC20AB09056203956D0AAC1 /* success.png */,
+				1930E800C2A26AFC6F8F0E92EAB08DB3 /* success@2x.png */,
+				65DC7E97714B702836D36030039989EA /* success@3x.png */,
+			);
+			name = photo;
+			path = SHCHUD/photo;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		04EBADCADF8A0FDE4DC6841B5207FC11 /* Headers */ = {
+		54ACE3EA63D2D8A45D4783B1F39D21C5 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AD2B7BCE4553DD1391908FACC66EA48B /* SHCHUD-umbrella.h in Headers */,
-				20B13FBB1F6BAFF5008D5970 /* SHCHUD.h in Headers */,
+				204D715F3EC1CA95AB3811488612A70F /* HUD.h in Headers */,
+				08B8C4EA36DEC547586C034E6AB0E165 /* SHCHUD-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -194,9 +239,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0B9481E19704CD1109A3D103A02FC3B3 /* Build configuration list for PBXNativeTarget "SHCHUD" */;
 			buildPhases = (
-				F28FB22EEA3D47958A9C1C534731D879 /* Sources */,
+				21040E630976BDD6CD279F9F99FB87DD /* Sources */,
 				67AD1DDDA0A83207928F53D3455499A8 /* Frameworks */,
-				04EBADCADF8A0FDE4DC6841B5207FC11 /* Headers */,
+				54ACE3EA63D2D8A45D4783B1F39D21C5 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -253,20 +298,32 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		21040E630976BDD6CD279F9F99FB87DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDE2E5C2BB051EA7DA30D4E2825727EE /* angle-mask.png in Sources */,
+				702CEAB54D3812B347299F19F7065964 /* angle-mask@2x.png in Sources */,
+				612C464F5F6BF96B51AD62FB6F3DD8F6 /* angle-mask@3x.png in Sources */,
+				B3A07E1B6F65A2FB80DCEE47390EE840 /* error.png in Sources */,
+				61B4BAA74F409F4ED7C012E57C688C78 /* error@2x.png in Sources */,
+				DCF9C483E4D29F97C0DD69D7B063EAEC /* error@3x.png in Sources */,
+				50C97496C5E4F7CFE01F5B581803D7F6 /* HUD.swift in Sources */,
+				C125ED1DFBEBDF77293A3EF946CC8775 /* info.png in Sources */,
+				325449821C27BFA3C3C5E1086800459C /* info@2x.png in Sources */,
+				DC72887FC3682708B40FD71181517873 /* info@3x.png in Sources */,
+				F678F36172C85C36CED02AF3813170B6 /* SHCHUD-dummy.m in Sources */,
+				645AC4F80908049D179F92924E40FC69 /* success.png in Sources */,
+				C9B4122FCAA7F33B1FC5C9FD9F4E191B /* success@2x.png in Sources */,
+				CBC1A04A2A76F9C7EABD5E0820B1D866 /* success@3x.png in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		738C6D5216F13EF17DACBFB7B974114D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				86C83E2EC538042F88C1B44F2E76A598 /* Pods-testHUD-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F28FB22EEA3D47958A9C1C534731D879 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4D64E66F459B4DF2F691E76AEB4CB42E /* HUD.swift in Sources */,
-				89207D651D8E0068402AC06FC84F003C /* SHCHUD-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -454,7 +511,7 @@
 		};
 		CDD0048FF79E772F7E41FEB621F117E8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 08C8057F9172DFE8938AB966FA642205 /* SHCHUD.xcconfig */;
+			baseConfigurationReference = 5D824EB0BC639916BAF0E7FF15E03F06 /* SHCHUD.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -489,7 +546,7 @@
 		};
 		F2D40A6E051291C6D4D3BC2E10CB4F0A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 08C8057F9172DFE8938AB966FA642205 /* SHCHUD.xcconfig */;
+			baseConfigurationReference = 5D824EB0BC639916BAF0E7FF15E03F06 /* SHCHUD.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";

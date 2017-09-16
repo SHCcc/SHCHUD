@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "HUD.h"
 
 FOUNDATION_EXPORT double SHCHUDVersionNumber;
 FOUNDATION_EXPORT const unsigned char SHCHUDVersionString[];
