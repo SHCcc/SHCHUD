@@ -257,7 +257,7 @@ extension HUD {
 extension HUD {
   func calculateSize(string: String) {
     // 计算文本
-    let attributes = [NSAttributedStringKey.font: UIFont.systemFont(ofSize: 16)]
+    let attributes = [NSFontAttributeName: UIFont.systemFont(ofSize: 16)]
     let option = NSStringDrawingOptions.usesLineFragmentOrigin
     let size = CGSize(width: 300, height: 300)
     let rect = string.boundingRect(with: size, options: option, attributes: attributes, context: nil)
