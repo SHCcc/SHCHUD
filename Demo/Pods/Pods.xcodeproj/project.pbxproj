@@ -12,7 +12,6 @@
 		204D715F3EC1CA95AB3811488612A70F /* HUD.h in Headers */ = {isa = PBXBuildFile; fileRef = E5EC595448F4D29FDB46A0ECA51DC20B /* HUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		325449821C27BFA3C3C5E1086800459C /* info@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = DFF15F1D6F882EDAC94B1058DA93A1C4 /* info@2x.png */; };
 		50C97496C5E4F7CFE01F5B581803D7F6 /* HUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 913C0DBDD386E3E57A08FADFFED25B61 /* HUD.swift */; };
-		601D75D86B7BF22733F8125C9C6BD76D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		612C464F5F6BF96B51AD62FB6F3DD8F6 /* angle-mask@3x.png in Sources */ = {isa = PBXBuildFile; fileRef = 51DE374C35F815B4386DF62F9026417F /* angle-mask@3x.png */; };
 		61B4BAA74F409F4ED7C012E57C688C78 /* error@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = 70F964B13EB54E144547EEC8280F2D13 /* error@2x.png */; };
 		645AC4F80908049D179F92924E40FC69 /* success.png in Sources */ = {isa = PBXBuildFile; fileRef = AA5B41FF9BC20AB09056203956D0AAC1 /* success.png */; };
@@ -22,7 +21,6 @@
 		C125ED1DFBEBDF77293A3EF946CC8775 /* info.png in Sources */ = {isa = PBXBuildFile; fileRef = CDD479E2B653A8A91A1E3F24872D0E96 /* info.png */; };
 		C9B4122FCAA7F33B1FC5C9FD9F4E191B /* success@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = 1930E800C2A26AFC6F8F0E92EAB08DB3 /* success@2x.png */; };
 		CBC1A04A2A76F9C7EABD5E0820B1D866 /* success@3x.png in Sources */ = {isa = PBXBuildFile; fileRef = 65DC7E97714B702836D36030039989EA /* success@3x.png */; };
-		CD26D1E490A201D6AA8925DBDC1CC6E9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		CDE2E5C2BB051EA7DA30D4E2825727EE /* angle-mask.png in Sources */ = {isa = PBXBuildFile; fileRef = 7684F8E5EF581676F45847E9ABAA391E /* angle-mask.png */; };
 		DC72887FC3682708B40FD71181517873 /* info@3x.png in Sources */ = {isa = PBXBuildFile; fileRef = A50E45A2F8DB3E47B5E60D704A282E69 /* info@3x.png */; };
 		DCF9C483E4D29F97C0DD69D7B063EAEC /* error@3x.png in Sources */ = {isa = PBXBuildFile; fileRef = DD4175A98C221F645F20F5E49592468B /* error@3x.png */; };
@@ -51,7 +49,6 @@
 		537B5CEE3E83AD190B53196141A42477 /* SHCHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SHCHUD.modulemap; sourceTree = "<group>"; };
 		5D824EB0BC639916BAF0E7FF15E03F06 /* SHCHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SHCHUD.xcconfig; sourceTree = "<group>"; };
 		65DC7E97714B702836D36030039989EA /* success@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "success@3x.png"; sourceTree = "<group>"; };
-		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		70F964B13EB54E144547EEC8280F2D13 /* error@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "error@2x.png"; sourceTree = "<group>"; };
 		7684F8E5EF581676F45847E9ABAA391E /* angle-mask.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "angle-mask.png"; sourceTree = "<group>"; };
 		76FB7B8C1768DEC093759CFB60D970B2 /* Pods-testHUD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-testHUD.release.xcconfig"; sourceTree = "<group>"; };
@@ -81,7 +78,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD26D1E490A201D6AA8925DBDC1CC6E9 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,7 +85,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				601D75D86B7BF22733F8125C9C6BD76D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -187,7 +182,6 @@
 		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
 			);
 			name = iOS;
 			sourceTree = "<group>";
