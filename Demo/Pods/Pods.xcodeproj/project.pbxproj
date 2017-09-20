@@ -7,27 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		08B8C4EA36DEC547586C034E6AB0E165 /* SHCHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D60B7D9F0720C25572FE9204A8F44712 /* SHCHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		02B9CC9FD90F5AEA5511C4EA0CDD2A58 /* SHCHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932BF1386197B69325CB6DC5E753F568 /* SHCHUD.swift */; };
+		053A75E29C8488A88AD484F1349BE76C /* angle-mask@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52C3FD71F3F30B3FE93F82430A811A38 /* angle-mask@2x.png */; };
+		08B8C4EA36DEC547586C034E6AB0E165 /* SHCHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F1CD56D1ED3C265B023E56D8320B83 /* SHCHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		17D665687F14F40E085337128BB3065C /* rotation@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F60C62CC98C094F4F775AE017992EEE /* rotation@2x.png */; };
 		1FA7F070BBBA51CE87D16A0950A2ED4F /* Pods-testHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F3DE76919B09BCFA9A0ECC6B84AA3BF7 /* Pods-testHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		204D715F3EC1CA95AB3811488612A70F /* HUD.h in Headers */ = {isa = PBXBuildFile; fileRef = E5EC595448F4D29FDB46A0ECA51DC20B /* HUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		325449821C27BFA3C3C5E1086800459C /* info@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = DFF15F1D6F882EDAC94B1058DA93A1C4 /* info@2x.png */; };
-		50C97496C5E4F7CFE01F5B581803D7F6 /* HUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 913C0DBDD386E3E57A08FADFFED25B61 /* HUD.swift */; };
-		612C464F5F6BF96B51AD62FB6F3DD8F6 /* angle-mask@3x.png in Sources */ = {isa = PBXBuildFile; fileRef = 51DE374C35F815B4386DF62F9026417F /* angle-mask@3x.png */; };
-		61B4BAA74F409F4ED7C012E57C688C78 /* error@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = 70F964B13EB54E144547EEC8280F2D13 /* error@2x.png */; };
-		645AC4F80908049D179F92924E40FC69 /* success.png in Sources */ = {isa = PBXBuildFile; fileRef = AA5B41FF9BC20AB09056203956D0AAC1 /* success.png */; };
-		702CEAB54D3812B347299F19F7065964 /* angle-mask@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = 0489CABEFDAEA093AC7821E9D1C8649D /* angle-mask@2x.png */; };
+		204D715F3EC1CA95AB3811488612A70F /* HUD.h in Headers */ = {isa = PBXBuildFile; fileRef = A9A01E34D335605D3706361EA43DB0E1 /* HUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		20C10572851BF3F7DF231D5931DA9C0A /* error@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 14E52E9F70F14D84F4369FF720B784AB /* error@2x.png */; };
+		21A55EBECEC7C07C90B3B5DCCD8AA6A4 /* SHCHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 68D41367338F9530BFE3EED59A034CBB /* SHCHUD-dummy.m */; };
+		24A7CF6868A6801D00EF3005477D41EB /* Photo.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 40FF1951366EDD78E6CB561DF3A2562A /* Photo.bundle */; };
+		29390C369A67A5C615ACC53D58287853 /* HUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69ADFFDFB8A7762387BF760A9F4F851F /* HUD.swift */; };
+		3EC8CD03CB2E694206BD850D919240E8 /* success@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 59FC5B88C33A2418A24BC2200E22AA34 /* success@2x.png */; };
+		48C0D2EE09CFBD25E31944BF23BE1C7A /* error.png in Resources */ = {isa = PBXBuildFile; fileRef = D752E1A3E48F05D053DE0F6748DA30D8 /* error.png */; };
+		5C5A0AE73E8C4743CB32BFAB56ABAF5C /* warning.png in Resources */ = {isa = PBXBuildFile; fileRef = D97FF13D2C8661892EBA0DD16D24E5B2 /* warning.png */; };
+		601D75D86B7BF22733F8125C9C6BD76D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		6A94EC88F35BCFC8DA4AF3791080D3A2 /* warning@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CDA06FBC20494B969CB3869ECF4281D5 /* warning@3x.png */; };
+		6B7EA646A34B28B2CAB9DA65D886030D /* angle-mask.png in Resources */ = {isa = PBXBuildFile; fileRef = E371A17BF0BA49C613B077683DF074C6 /* angle-mask.png */; };
+		6CC40DD46BA2BACF7FCECB1611EEF34E /* error@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 39E5A7BA10EA3972ADEEE93B42201689 /* error@3x.png */; };
+		74ED2FA6E564324EE5EA625B9D161E6C /* angle-mask@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC80D30B9DC9297B7A4EEEC33962C50D /* angle-mask@3x.png */; };
+		7F91B457FB165AB708F2389B0F589082 /* rotation.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C027E19561B9070F29621E0A9237776 /* rotation.png */; };
 		86C83E2EC538042F88C1B44F2E76A598 /* Pods-testHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C1FBED0699F4D3D79C241BB3E1965D09 /* Pods-testHUD-dummy.m */; };
-		B3A07E1B6F65A2FB80DCEE47390EE840 /* error.png in Sources */ = {isa = PBXBuildFile; fileRef = EAE85E23F34208138E406B6FBEFC7166 /* error.png */; };
-		C125ED1DFBEBDF77293A3EF946CC8775 /* info.png in Sources */ = {isa = PBXBuildFile; fileRef = CDD479E2B653A8A91A1E3F24872D0E96 /* info.png */; };
-		C9B4122FCAA7F33B1FC5C9FD9F4E191B /* success@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = 1930E800C2A26AFC6F8F0E92EAB08DB3 /* success@2x.png */; };
-		CBC1A04A2A76F9C7EABD5E0820B1D866 /* success@3x.png in Sources */ = {isa = PBXBuildFile; fileRef = 65DC7E97714B702836D36030039989EA /* success@3x.png */; };
-		CDE2E5C2BB051EA7DA30D4E2825727EE /* angle-mask.png in Sources */ = {isa = PBXBuildFile; fileRef = 7684F8E5EF581676F45847E9ABAA391E /* angle-mask.png */; };
-		DC72887FC3682708B40FD71181517873 /* info@3x.png in Sources */ = {isa = PBXBuildFile; fileRef = A50E45A2F8DB3E47B5E60D704A282E69 /* info@3x.png */; };
-		DCF9C483E4D29F97C0DD69D7B063EAEC /* error@3x.png in Sources */ = {isa = PBXBuildFile; fileRef = DD4175A98C221F645F20F5E49592468B /* error@3x.png */; };
-		F678F36172C85C36CED02AF3813170B6 /* SHCHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 86263B52EE70CDDA0840B51641624775 /* SHCHUD-dummy.m */; };
+		8B9B8FB2D4B93B0CF7ECED8AD90D4303 /* rotation@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C4F5B9CC656455E5C055719FD9C0A30E /* rotation@3x.png */; };
+		9313D42EBF0079A55AB348796273941C /* warning@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 00D42C95A40D79368BDBD59044EFB11D /* warning@2x.png */; };
+		A46101FDFAC2FB7984E6E0DF2D9FF441 /* success@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C9037E1DB1727D1B668D3B15C1B6B82B /* success@3x.png */; };
+		AD689D0AC26444357EA4DF98490178BF /* success.png in Resources */ = {isa = PBXBuildFile; fileRef = BB771D545869C646424403A6895B6BA6 /* success.png */; };
+		CD26D1E490A201D6AA8925DBDC1CC6E9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		430A1C00182F4AFA8EC0DE3939686ABF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D08C824DD6881655B540751B1C25F2E9;
+			remoteInfo = "SHCHUD-Photo";
+		};
 		9ECE6144579EBCCC31B1B11D9FBD3643 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
@@ -39,42 +53,57 @@
 
 /* Begin PBXFileReference section */
 		00531A3C7EF795EFE049AE7B82DB472A /* Pods-testHUD-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-testHUD-acknowledgements.plist"; sourceTree = "<group>"; };
+		00D42C95A40D79368BDBD59044EFB11D /* warning@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "warning@2x.png"; path = "Photo.bundle/warning@2x.png"; sourceTree = "<group>"; };
 		014106F199812EC688AAA3FC6D3418A2 /* Pods-testHUD-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-testHUD-acknowledgements.markdown"; sourceTree = "<group>"; };
-		0489CABEFDAEA093AC7821E9D1C8649D /* angle-mask@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "angle-mask@2x.png"; sourceTree = "<group>"; };
+		01A93A83167DF478D0953F240BF75B5D /* SHCHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SHCHUD.framework; path = SHCHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		01FBD6C8A4D5EEA0A957360921F81B49 /* ResourceBundle-Photo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-Photo-Info.plist"; sourceTree = "<group>"; };
 		0A0AE4103EAD06509BAE8B481C4015F4 /* Pods-testHUD.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-testHUD.debug.xcconfig"; sourceTree = "<group>"; };
 		11269A5CFE639EDF2BEF6AC10D3B28BF /* Pods-testHUD-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-testHUD-frameworks.sh"; sourceTree = "<group>"; };
-		1930E800C2A26AFC6F8F0E92EAB08DB3 /* success@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "success@2x.png"; sourceTree = "<group>"; };
+		14E52E9F70F14D84F4369FF720B784AB /* error@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "error@2x.png"; path = "Photo.bundle/error@2x.png"; sourceTree = "<group>"; };
+		39E5A7BA10EA3972ADEEE93B42201689 /* error@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "error@3x.png"; path = "Photo.bundle/error@3x.png"; sourceTree = "<group>"; };
+		40FF1951366EDD78E6CB561DF3A2562A /* Photo.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = Photo.bundle; path = Photo.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		46CD8ABD77F0C6DD6DFD1836856C7003 /* Pods_testHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_testHUD.framework; path = "Pods-testHUD.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D36CF45469D38B13D35335ED23C3764 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		51DE374C35F815B4386DF62F9026417F /* angle-mask@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "angle-mask@3x.png"; sourceTree = "<group>"; };
-		537B5CEE3E83AD190B53196141A42477 /* SHCHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SHCHUD.modulemap; sourceTree = "<group>"; };
-		5D824EB0BC639916BAF0E7FF15E03F06 /* SHCHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SHCHUD.xcconfig; sourceTree = "<group>"; };
-		65DC7E97714B702836D36030039989EA /* success@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "success@3x.png"; sourceTree = "<group>"; };
-		70F964B13EB54E144547EEC8280F2D13 /* error@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "error@2x.png"; sourceTree = "<group>"; };
-		7684F8E5EF581676F45847E9ABAA391E /* angle-mask.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "angle-mask.png"; sourceTree = "<group>"; };
+		52C3FD71F3F30B3FE93F82430A811A38 /* angle-mask@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "angle-mask@2x.png"; path = "Photo.bundle/angle-mask@2x.png"; sourceTree = "<group>"; };
+		59FC5B88C33A2418A24BC2200E22AA34 /* success@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "success@2x.png"; path = "Photo.bundle/success@2x.png"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		68D41367338F9530BFE3EED59A034CBB /* SHCHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SHCHUD-dummy.m"; sourceTree = "<group>"; };
+		69ADFFDFB8A7762387BF760A9F4F851F /* HUD.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HUD.swift; path = SHCHUD/HUD.swift; sourceTree = "<group>"; };
+		6AAE5D4646AD835A02A9C5DD03FC3EB0 /* SHCHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SHCHUD.modulemap; sourceTree = "<group>"; };
+		6B3291D9246A5D046AF21C130225F88A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F60C62CC98C094F4F775AE017992EEE /* rotation@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "rotation@2x.png"; path = "Photo.bundle/rotation@2x.png"; sourceTree = "<group>"; };
 		76FB7B8C1768DEC093759CFB60D970B2 /* Pods-testHUD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-testHUD.release.xcconfig"; sourceTree = "<group>"; };
-		86263B52EE70CDDA0840B51641624775 /* SHCHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SHCHUD-dummy.m"; sourceTree = "<group>"; };
-		913C0DBDD386E3E57A08FADFFED25B61 /* HUD.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HUD.swift; path = SHCHUD/HUD.swift; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9564955E828311E5D3F22D95A5960DE9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A50E45A2F8DB3E47B5E60D704A282E69 /* info@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "info@3x.png"; sourceTree = "<group>"; };
-		AA5B41FF9BC20AB09056203956D0AAC1 /* success.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = success.png; sourceTree = "<group>"; };
-		AB3B00236038FF3DDE9DF04372E0396B /* Pods_testHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_testHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C027E19561B9070F29621E0A9237776 /* rotation.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = rotation.png; path = Photo.bundle/rotation.png; sourceTree = "<group>"; };
+		91F1CD56D1ED3C265B023E56D8320B83 /* SHCHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SHCHUD-umbrella.h"; sourceTree = "<group>"; };
+		932BF1386197B69325CB6DC5E753F568 /* SHCHUD.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SHCHUD.swift; path = SHCHUD/SHCHUD.swift; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A9A01E34D335605D3706361EA43DB0E1 /* HUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HUD.h; path = SHCHUD/HUD.h; sourceTree = "<group>"; };
+		BB771D545869C646424403A6895B6BA6 /* success.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = success.png; path = Photo.bundle/success.png; sourceTree = "<group>"; };
+		BC80D30B9DC9297B7A4EEEC33962C50D /* angle-mask@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "angle-mask@3x.png"; path = "Photo.bundle/angle-mask@3x.png"; sourceTree = "<group>"; };
 		BDABFE6297B0E42B25A8A0BD9809D4A8 /* Pods-testHUD-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-testHUD-resources.sh"; sourceTree = "<group>"; };
 		C1FBED0699F4D3D79C241BB3E1965D09 /* Pods-testHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-testHUD-dummy.m"; sourceTree = "<group>"; };
-		CA9AF27E1D6D10208897B7AEC2ADB838 /* Pods-testHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-testHUD.modulemap"; sourceTree = "<group>"; };
-		CDD479E2B653A8A91A1E3F24872D0E96 /* info.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = info.png; sourceTree = "<group>"; };
-		D60B7D9F0720C25572FE9204A8F44712 /* SHCHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SHCHUD-umbrella.h"; sourceTree = "<group>"; };
-		DD4175A98C221F645F20F5E49592468B /* error@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "error@3x.png"; sourceTree = "<group>"; };
-		DFF15F1D6F882EDAC94B1058DA93A1C4 /* info@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "info@2x.png"; sourceTree = "<group>"; };
-		E5EC595448F4D29FDB46A0ECA51DC20B /* HUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HUD.h; path = SHCHUD/HUD.h; sourceTree = "<group>"; };
-		E8ADDF5B0B6EA66FFA4E317126767A0F /* SHCHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SHCHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EAE85E23F34208138E406B6FBEFC7166 /* error.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = error.png; sourceTree = "<group>"; };
+		C4F5B9CC656455E5C055719FD9C0A30E /* rotation@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "rotation@3x.png"; path = "Photo.bundle/rotation@3x.png"; sourceTree = "<group>"; };
+		C9037E1DB1727D1B668D3B15C1B6B82B /* success@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "success@3x.png"; path = "Photo.bundle/success@3x.png"; sourceTree = "<group>"; };
+		CA9AF27E1D6D10208897B7AEC2ADB838 /* Pods-testHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-testHUD.modulemap"; sourceTree = "<group>"; };
+		CDA06FBC20494B969CB3869ECF4281D5 /* warning@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "warning@3x.png"; path = "Photo.bundle/warning@3x.png"; sourceTree = "<group>"; };
+		D293A2B25288F22818B2C21FF68E499A /* SHCHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SHCHUD-prefix.pch"; sourceTree = "<group>"; };
+		D3A451499F6CA387F70B8D0D47EE2DC6 /* SHCHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SHCHUD.xcconfig; sourceTree = "<group>"; };
+		D752E1A3E48F05D053DE0F6748DA30D8 /* error.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = error.png; path = Photo.bundle/error.png; sourceTree = "<group>"; };
+		D97FF13D2C8661892EBA0DD16D24E5B2 /* warning.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = warning.png; path = Photo.bundle/warning.png; sourceTree = "<group>"; };
+		E371A17BF0BA49C613B077683DF074C6 /* angle-mask.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "angle-mask.png"; path = "Photo.bundle/angle-mask.png"; sourceTree = "<group>"; };
 		F3DE76919B09BCFA9A0ECC6B84AA3BF7 /* Pods-testHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-testHUD-umbrella.h"; sourceTree = "<group>"; };
-		F6F2162042DA9D05D685E24550C57311 /* SHCHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SHCHUD-prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		67AD1DDDA0A83207928F53D3455499A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD26D1E490A201D6AA8925DBDC1CC6E9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF979EC7648CB7C6A229D00CDFCDEDED /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -85,6 +114,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				601D75D86B7BF22733F8125C9C6BD76D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,6 +127,46 @@
 				4AE81A221EA60CF28658537ED4E9D921 /* Pods-testHUD */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		1946D2C559FE27B8A085C04A32B2D2FB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E371A17BF0BA49C613B077683DF074C6 /* angle-mask.png */,
+				52C3FD71F3F30B3FE93F82430A811A38 /* angle-mask@2x.png */,
+				BC80D30B9DC9297B7A4EEEC33962C50D /* angle-mask@3x.png */,
+				D752E1A3E48F05D053DE0F6748DA30D8 /* error.png */,
+				14E52E9F70F14D84F4369FF720B784AB /* error@2x.png */,
+				39E5A7BA10EA3972ADEEE93B42201689 /* error@3x.png */,
+				7C027E19561B9070F29621E0A9237776 /* rotation.png */,
+				6F60C62CC98C094F4F775AE017992EEE /* rotation@2x.png */,
+				C4F5B9CC656455E5C055719FD9C0A30E /* rotation@3x.png */,
+				BB771D545869C646424403A6895B6BA6 /* success.png */,
+				59FC5B88C33A2418A24BC2200E22AA34 /* success@2x.png */,
+				C9037E1DB1727D1B668D3B15C1B6B82B /* success@3x.png */,
+				D97FF13D2C8661892EBA0DD16D24E5B2 /* warning.png */,
+				00D42C95A40D79368BDBD59044EFB11D /* warning@2x.png */,
+				CDA06FBC20494B969CB3869ECF4281D5 /* warning@3x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		365989CC447D86A06BA7D6D70F49F125 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A76D125DF97B055DE83234AD012689E6 /* SHCHUD */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		417DA4B80A0B0DC4A56EFC1A61E82401 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				40FF1951366EDD78E6CB561DF3A2562A /* Photo.bundle */,
+				46CD8ABD77F0C6DD6DFD1836856C7003 /* Pods_testHUD.framework */,
+				01A93A83167DF478D0953F240BF75B5D /* SHCHUD.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		4AE81A221EA60CF28658537ED4E9D921 /* Pods-testHUD */ = {
@@ -117,58 +187,28 @@
 			path = "Target Support Files/Pods-testHUD";
 			sourceTree = "<group>";
 		};
-		69FB876F7066B7CB7FF47BAF1DC2F93E /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				9564955E828311E5D3F22D95A5960DE9 /* Info.plist */,
-				537B5CEE3E83AD190B53196141A42477 /* SHCHUD.modulemap */,
-				5D824EB0BC639916BAF0E7FF15E03F06 /* SHCHUD.xcconfig */,
-				86263B52EE70CDDA0840B51641624775 /* SHCHUD-dummy.m */,
-				F6F2162042DA9D05D685E24550C57311 /* SHCHUD-prefix.pch */,
-				D60B7D9F0720C25572FE9204A8F44712 /* SHCHUD-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Demo/Pods/Target Support Files/SHCHUD";
-			sourceTree = "<group>";
-		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				A60FA11F2A549C4F72BB710BC55E672C /* Development Pods */,
+				365989CC447D86A06BA7D6D70F49F125 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				89A3854ED9668B099C9B432C9A54D352 /* Products */,
+				417DA4B80A0B0DC4A56EFC1A61E82401 /* Products */,
 				13F002C7D9E3D30C0FF3FF3005058EA2 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		89A3854ED9668B099C9B432C9A54D352 /* Products */ = {
+		A76D125DF97B055DE83234AD012689E6 /* SHCHUD */ = {
 			isa = PBXGroup;
 			children = (
-				AB3B00236038FF3DDE9DF04372E0396B /* Pods_testHUD.framework */,
-				E8ADDF5B0B6EA66FFA4E317126767A0F /* SHCHUD.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		94724DA98B483E67DA69C49F7A1359FD /* SHCHUD */ = {
-			isa = PBXGroup;
-			children = (
-				E5EC595448F4D29FDB46A0ECA51DC20B /* HUD.h */,
-				913C0DBDD386E3E57A08FADFFED25B61 /* HUD.swift */,
-				F7316ED975759E4B499C001C399BF605 /* photo */,
-				69FB876F7066B7CB7FF47BAF1DC2F93E /* Support Files */,
+				A9A01E34D335605D3706361EA43DB0E1 /* HUD.h */,
+				69ADFFDFB8A7762387BF760A9F4F851F /* HUD.swift */,
+				932BF1386197B69325CB6DC5E753F568 /* SHCHUD.swift */,
+				1946D2C559FE27B8A085C04A32B2D2FB /* Resources */,
+				CF39019FBC017ED825FAACD894CAF87F /* Support Files */,
 			);
 			name = SHCHUD;
 			path = ../..;
-			sourceTree = "<group>";
-		};
-		A60FA11F2A549C4F72BB710BC55E672C /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				94724DA98B483E67DA69C49F7A1359FD /* SHCHUD */,
-			);
-			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -179,31 +219,27 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		CF39019FBC017ED825FAACD894CAF87F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6B3291D9246A5D046AF21C130225F88A /* Info.plist */,
+				01FBD6C8A4D5EEA0A957360921F81B49 /* ResourceBundle-Photo-Info.plist */,
+				6AAE5D4646AD835A02A9C5DD03FC3EB0 /* SHCHUD.modulemap */,
+				D3A451499F6CA387F70B8D0D47EE2DC6 /* SHCHUD.xcconfig */,
+				68D41367338F9530BFE3EED59A034CBB /* SHCHUD-dummy.m */,
+				D293A2B25288F22818B2C21FF68E499A /* SHCHUD-prefix.pch */,
+				91F1CD56D1ED3C265B023E56D8320B83 /* SHCHUD-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Demo/Pods/Target Support Files/SHCHUD";
+			sourceTree = "<group>";
+		};
 		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
 			isa = PBXGroup;
 			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
 			);
 			name = iOS;
-			sourceTree = "<group>";
-		};
-		F7316ED975759E4B499C001C399BF605 /* photo */ = {
-			isa = PBXGroup;
-			children = (
-				7684F8E5EF581676F45847E9ABAA391E /* angle-mask.png */,
-				0489CABEFDAEA093AC7821E9D1C8649D /* angle-mask@2x.png */,
-				51DE374C35F815B4386DF62F9026417F /* angle-mask@3x.png */,
-				EAE85E23F34208138E406B6FBEFC7166 /* error.png */,
-				70F964B13EB54E144547EEC8280F2D13 /* error@2x.png */,
-				DD4175A98C221F645F20F5E49592468B /* error@3x.png */,
-				CDD479E2B653A8A91A1E3F24872D0E96 /* info.png */,
-				DFF15F1D6F882EDAC94B1058DA93A1C4 /* info@2x.png */,
-				A50E45A2F8DB3E47B5E60D704A282E69 /* info@3x.png */,
-				AA5B41FF9BC20AB09056203956D0AAC1 /* success.png */,
-				1930E800C2A26AFC6F8F0E92EAB08DB3 /* success@2x.png */,
-				65DC7E97714B702836D36030039989EA /* success@3x.png */,
-			);
-			name = photo;
-			path = SHCHUD/photo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,17 +269,19 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0B9481E19704CD1109A3D103A02FC3B3 /* Build configuration list for PBXNativeTarget "SHCHUD" */;
 			buildPhases = (
-				21040E630976BDD6CD279F9F99FB87DD /* Sources */,
+				684DA31C2521D03347ED7CC97CDFAB55 /* Sources */,
 				67AD1DDDA0A83207928F53D3455499A8 /* Frameworks */,
+				37B56EA1FD30E0F4D8C2037EBA5DFE55 /* Resources */,
 				54ACE3EA63D2D8A45D4783B1F39D21C5 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				B5C8412F1F7FD664DFDF233C292E196E /* PBXTargetDependency */,
 			);
 			name = SHCHUD;
 			productName = SHCHUD;
-			productReference = E8ADDF5B0B6EA66FFA4E317126767A0F /* SHCHUD.framework */;
+			productReference = 01A93A83167DF478D0953F240BF75B5D /* SHCHUD.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		C11C18D3993593A2E112B8867BB4E49A /* Pods-testHUD */ = {
@@ -261,8 +299,25 @@
 			);
 			name = "Pods-testHUD";
 			productName = "Pods-testHUD";
-			productReference = AB3B00236038FF3DDE9DF04372E0396B /* Pods_testHUD.framework */;
+			productReference = 46CD8ABD77F0C6DD6DFD1836856C7003 /* Pods_testHUD.framework */;
 			productType = "com.apple.product-type.framework";
+		};
+		D08C824DD6881655B540751B1C25F2E9 /* SHCHUD-Photo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5ECEE24735BF5CA3A8DF159B6D6368D /* Build configuration list for PBXNativeTarget "SHCHUD-Photo" */;
+			buildPhases = (
+				3B7E7BFC8BB0D61C97045A50775FDDED /* Sources */,
+				AF979EC7648CB7C6A229D00CDFCDEDED /* Frameworks */,
+				809E7D91A6BDCE9C6483CCBF7163448C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SHCHUD-Photo";
+			productName = "SHCHUD-Photo";
+			productReference = 40FF1951366EDD78E6CB561DF3A2562A /* Photo.bundle */;
+			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
 
@@ -281,35 +336,65 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 89A3854ED9668B099C9B432C9A54D352 /* Products */;
+			productRefGroup = 417DA4B80A0B0DC4A56EFC1A61E82401 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				C11C18D3993593A2E112B8867BB4E49A /* Pods-testHUD */,
 				46AE42377A647F49D6FCB4796903F9B6 /* SHCHUD */,
+				D08C824DD6881655B540751B1C25F2E9 /* SHCHUD-Photo */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		37B56EA1FD30E0F4D8C2037EBA5DFE55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24A7CF6868A6801D00EF3005477D41EB /* Photo.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		809E7D91A6BDCE9C6483CCBF7163448C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B7EA646A34B28B2CAB9DA65D886030D /* angle-mask.png in Resources */,
+				053A75E29C8488A88AD484F1349BE76C /* angle-mask@2x.png in Resources */,
+				74ED2FA6E564324EE5EA625B9D161E6C /* angle-mask@3x.png in Resources */,
+				48C0D2EE09CFBD25E31944BF23BE1C7A /* error.png in Resources */,
+				20C10572851BF3F7DF231D5931DA9C0A /* error@2x.png in Resources */,
+				6CC40DD46BA2BACF7FCECB1611EEF34E /* error@3x.png in Resources */,
+				7F91B457FB165AB708F2389B0F589082 /* rotation.png in Resources */,
+				17D665687F14F40E085337128BB3065C /* rotation@2x.png in Resources */,
+				8B9B8FB2D4B93B0CF7ECED8AD90D4303 /* rotation@3x.png in Resources */,
+				AD689D0AC26444357EA4DF98490178BF /* success.png in Resources */,
+				3EC8CD03CB2E694206BD850D919240E8 /* success@2x.png in Resources */,
+				A46101FDFAC2FB7984E6E0DF2D9FF441 /* success@3x.png in Resources */,
+				5C5A0AE73E8C4743CB32BFAB56ABAF5C /* warning.png in Resources */,
+				9313D42EBF0079A55AB348796273941C /* warning@2x.png in Resources */,
+				6A94EC88F35BCFC8DA4AF3791080D3A2 /* warning@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		21040E630976BDD6CD279F9F99FB87DD /* Sources */ = {
+		3B7E7BFC8BB0D61C97045A50775FDDED /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CDE2E5C2BB051EA7DA30D4E2825727EE /* angle-mask.png in Sources */,
-				702CEAB54D3812B347299F19F7065964 /* angle-mask@2x.png in Sources */,
-				612C464F5F6BF96B51AD62FB6F3DD8F6 /* angle-mask@3x.png in Sources */,
-				B3A07E1B6F65A2FB80DCEE47390EE840 /* error.png in Sources */,
-				61B4BAA74F409F4ED7C012E57C688C78 /* error@2x.png in Sources */,
-				DCF9C483E4D29F97C0DD69D7B063EAEC /* error@3x.png in Sources */,
-				50C97496C5E4F7CFE01F5B581803D7F6 /* HUD.swift in Sources */,
-				C125ED1DFBEBDF77293A3EF946CC8775 /* info.png in Sources */,
-				325449821C27BFA3C3C5E1086800459C /* info@2x.png in Sources */,
-				DC72887FC3682708B40FD71181517873 /* info@3x.png in Sources */,
-				F678F36172C85C36CED02AF3813170B6 /* SHCHUD-dummy.m in Sources */,
-				645AC4F80908049D179F92924E40FC69 /* success.png in Sources */,
-				C9B4122FCAA7F33B1FC5C9FD9F4E191B /* success@2x.png in Sources */,
-				CBC1A04A2A76F9C7EABD5E0820B1D866 /* success@3x.png in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		684DA31C2521D03347ED7CC97CDFAB55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29390C369A67A5C615ACC53D58287853 /* HUD.swift in Sources */,
+				21A55EBECEC7C07C90B3B5DCCD8AA6A4 /* SHCHUD-dummy.m in Sources */,
+				02B9CC9FD90F5AEA5511C4EA0CDD2A58 /* SHCHUD.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -329,6 +414,12 @@
 			name = SHCHUD;
 			target = 46AE42377A647F49D6FCB4796903F9B6 /* SHCHUD */;
 			targetProxy = 9ECE6144579EBCCC31B1B11D9FBD3643 /* PBXContainerItemProxy */;
+		};
+		B5C8412F1F7FD664DFDF233C292E196E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "SHCHUD-Photo";
+			target = D08C824DD6881655B540751B1C25F2E9 /* SHCHUD-Photo */;
+			targetProxy = 430A1C00182F4AFA8EC0DE3939686ABF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -381,6 +472,41 @@
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
+		};
+		276B36A91B4D91062B65BF6111D1955D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3A451499F6CA387F70B8D0D47EE2DC6 /* SHCHUD.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SHCHUD/SHCHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SHCHUD/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SHCHUD/SHCHUD.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SHCHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		34FE9531DA9AF2820790339988D5FF41 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -464,6 +590,41 @@
 			};
 			name = Release;
 		};
+		4B84E36B7CE89317E7639F4D038657DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3A451499F6CA387F70B8D0D47EE2DC6 /* SHCHUD.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SHCHUD/SHCHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SHCHUD/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SHCHUD/SHCHUD.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SHCHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		7A010D8CAB2C222D69F6EFBEAD2D12F9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0A0AE4103EAD06509BAE8B481C4015F4 /* Pods-testHUD.debug.xcconfig */;
@@ -503,73 +664,37 @@
 			};
 			name = Debug;
 		};
-		CDD0048FF79E772F7E41FEB621F117E8 /* Debug */ = {
+		C140E893045E50D3AE965DCBB25D3EC9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5D824EB0BC639916BAF0E7FF15E03F06 /* SHCHUD.xcconfig */;
+			baseConfigurationReference = D3A451499F6CA387F70B8D0D47EE2DC6 /* SHCHUD.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/SHCHUD";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/SHCHUD/SHCHUD-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SHCHUD/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				INFOPLIST_FILE = "Target Support Files/SHCHUD/ResourceBundle-Photo-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SHCHUD/SHCHUD.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = SHCHUD;
+				PRODUCT_NAME = Photo;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Debug;
 		};
-		F2D40A6E051291C6D4D3BC2E10CB4F0A /* Release */ = {
+		DD4527CA649DFA4F71088BD253EE506E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5D824EB0BC639916BAF0E7FF15E03F06 /* SHCHUD.xcconfig */;
+			baseConfigurationReference = D3A451499F6CA387F70B8D0D47EE2DC6 /* SHCHUD.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/SHCHUD";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/SHCHUD/SHCHUD-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SHCHUD/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				INFOPLIST_FILE = "Target Support Files/SHCHUD/ResourceBundle-Photo-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SHCHUD/SHCHUD.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = SHCHUD;
+				PRODUCT_NAME = Photo;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Release;
 		};
@@ -579,8 +704,8 @@
 		0B9481E19704CD1109A3D103A02FC3B3 /* Build configuration list for PBXNativeTarget "SHCHUD" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CDD0048FF79E772F7E41FEB621F117E8 /* Debug */,
-				F2D40A6E051291C6D4D3BC2E10CB4F0A /* Release */,
+				4B84E36B7CE89317E7639F4D038657DC /* Debug */,
+				276B36A91B4D91062B65BF6111D1955D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -590,6 +715,15 @@
 			buildConfigurations = (
 				1C7D17A37D091C98D2F0DD886C3A9320 /* Debug */,
 				34FE9531DA9AF2820790339988D5FF41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5ECEE24735BF5CA3A8DF159B6D6368D /* Build configuration list for PBXNativeTarget "SHCHUD-Photo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C140E893045E50D3AE965DCBB25D3EC9 /* Debug */,
+				DD4527CA649DFA4F71088BD253EE506E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

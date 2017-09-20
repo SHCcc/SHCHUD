@@ -93,7 +93,7 @@ class ViewController: UIViewController {
   }
   
   @objc func image() {
-    HUD.showImage(image: UIImage(named: "angle-mask")!)
+    HUD.showImage(image: UIImage(named: "rotation") ?? UIImage())
     print("图片")
   }
   
