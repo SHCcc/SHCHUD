@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		02B9CC9FD90F5AEA5511C4EA0CDD2A58 /* SHCHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932BF1386197B69325CB6DC5E753F568 /* SHCHUD.swift */; };
 		053A75E29C8488A88AD484F1349BE76C /* angle-mask@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52C3FD71F3F30B3FE93F82430A811A38 /* angle-mask@2x.png */; };
 		08B8C4EA36DEC547586C034E6AB0E165 /* SHCHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F1CD56D1ED3C265B023E56D8320B83 /* SHCHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		17D665687F14F40E085337128BB3065C /* rotation@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F60C62CC98C094F4F775AE017992EEE /* rotation@2x.png */; };
 		1FA7F070BBBA51CE87D16A0950A2ED4F /* Pods-testHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F3DE76919B09BCFA9A0ECC6B84AA3BF7 /* Pods-testHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		204D715F3EC1CA95AB3811488612A70F /* HUD.h in Headers */ = {isa = PBXBuildFile; fileRef = A9A01E34D335605D3706361EA43DB0E1 /* HUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		20C10572851BF3F7DF231D5931DA9C0A /* error@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 14E52E9F70F14D84F4369FF720B784AB /* error@2x.png */; };
+		20C42E781F726366008FBE87 /* SHCHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C42E771F726366008FBE87 /* SHCHUD.swift */; };
 		21A55EBECEC7C07C90B3B5DCCD8AA6A4 /* SHCHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 68D41367338F9530BFE3EED59A034CBB /* SHCHUD-dummy.m */; };
 		24A7CF6868A6801D00EF3005477D41EB /* Photo.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 40FF1951366EDD78E6CB561DF3A2562A /* Photo.bundle */; };
 		29390C369A67A5C615ACC53D58287853 /* HUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69ADFFDFB8A7762387BF760A9F4F851F /* HUD.swift */; };
@@ -55,28 +55,28 @@
 		00531A3C7EF795EFE049AE7B82DB472A /* Pods-testHUD-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-testHUD-acknowledgements.plist"; sourceTree = "<group>"; };
 		00D42C95A40D79368BDBD59044EFB11D /* warning@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "warning@2x.png"; path = "Photo.bundle/warning@2x.png"; sourceTree = "<group>"; };
 		014106F199812EC688AAA3FC6D3418A2 /* Pods-testHUD-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-testHUD-acknowledgements.markdown"; sourceTree = "<group>"; };
-		01A93A83167DF478D0953F240BF75B5D /* SHCHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SHCHUD.framework; path = SHCHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		01A93A83167DF478D0953F240BF75B5D /* SHCHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SHCHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		01FBD6C8A4D5EEA0A957360921F81B49 /* ResourceBundle-Photo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-Photo-Info.plist"; sourceTree = "<group>"; };
 		0A0AE4103EAD06509BAE8B481C4015F4 /* Pods-testHUD.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-testHUD.debug.xcconfig"; sourceTree = "<group>"; };
 		11269A5CFE639EDF2BEF6AC10D3B28BF /* Pods-testHUD-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-testHUD-frameworks.sh"; sourceTree = "<group>"; };
 		14E52E9F70F14D84F4369FF720B784AB /* error@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "error@2x.png"; path = "Photo.bundle/error@2x.png"; sourceTree = "<group>"; };
+		20C42E771F726366008FBE87 /* SHCHUD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SHCHUD.swift; path = SHCHUD/SHCHUD.swift; sourceTree = "<group>"; };
 		39E5A7BA10EA3972ADEEE93B42201689 /* error@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "error@3x.png"; path = "Photo.bundle/error@3x.png"; sourceTree = "<group>"; };
-		40FF1951366EDD78E6CB561DF3A2562A /* Photo.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = Photo.bundle; path = Photo.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		46CD8ABD77F0C6DD6DFD1836856C7003 /* Pods_testHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_testHUD.framework; path = "Pods-testHUD.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		40FF1951366EDD78E6CB561DF3A2562A /* Photo.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Photo.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		46CD8ABD77F0C6DD6DFD1836856C7003 /* Pods_testHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_testHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D36CF45469D38B13D35335ED23C3764 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		52C3FD71F3F30B3FE93F82430A811A38 /* angle-mask@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "angle-mask@2x.png"; path = "Photo.bundle/angle-mask@2x.png"; sourceTree = "<group>"; };
 		59FC5B88C33A2418A24BC2200E22AA34 /* success@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "success@2x.png"; path = "Photo.bundle/success@2x.png"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		68D41367338F9530BFE3EED59A034CBB /* SHCHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SHCHUD-dummy.m"; sourceTree = "<group>"; };
 		69ADFFDFB8A7762387BF760A9F4F851F /* HUD.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HUD.swift; path = SHCHUD/HUD.swift; sourceTree = "<group>"; };
-		6AAE5D4646AD835A02A9C5DD03FC3EB0 /* SHCHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SHCHUD.modulemap; sourceTree = "<group>"; };
+		6AAE5D4646AD835A02A9C5DD03FC3EB0 /* SHCHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SHCHUD.modulemap; sourceTree = "<group>"; };
 		6B3291D9246A5D046AF21C130225F88A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6F60C62CC98C094F4F775AE017992EEE /* rotation@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "rotation@2x.png"; path = "Photo.bundle/rotation@2x.png"; sourceTree = "<group>"; };
 		76FB7B8C1768DEC093759CFB60D970B2 /* Pods-testHUD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-testHUD.release.xcconfig"; sourceTree = "<group>"; };
 		7C027E19561B9070F29621E0A9237776 /* rotation.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = rotation.png; path = Photo.bundle/rotation.png; sourceTree = "<group>"; };
 		91F1CD56D1ED3C265B023E56D8320B83 /* SHCHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SHCHUD-umbrella.h"; sourceTree = "<group>"; };
-		932BF1386197B69325CB6DC5E753F568 /* SHCHUD.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SHCHUD.swift; path = SHCHUD/SHCHUD.swift; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A9A01E34D335605D3706361EA43DB0E1 /* HUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HUD.h; path = SHCHUD/HUD.h; sourceTree = "<group>"; };
 		BB771D545869C646424403A6895B6BA6 /* success.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = success.png; path = Photo.bundle/success.png; sourceTree = "<group>"; };
 		BC80D30B9DC9297B7A4EEEC33962C50D /* angle-mask@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "angle-mask@3x.png"; path = "Photo.bundle/angle-mask@3x.png"; sourceTree = "<group>"; };
@@ -84,7 +84,7 @@
 		C1FBED0699F4D3D79C241BB3E1965D09 /* Pods-testHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-testHUD-dummy.m"; sourceTree = "<group>"; };
 		C4F5B9CC656455E5C055719FD9C0A30E /* rotation@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "rotation@3x.png"; path = "Photo.bundle/rotation@3x.png"; sourceTree = "<group>"; };
 		C9037E1DB1727D1B668D3B15C1B6B82B /* success@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "success@3x.png"; path = "Photo.bundle/success@3x.png"; sourceTree = "<group>"; };
-		CA9AF27E1D6D10208897B7AEC2ADB838 /* Pods-testHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-testHUD.modulemap"; sourceTree = "<group>"; };
+		CA9AF27E1D6D10208897B7AEC2ADB838 /* Pods-testHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-testHUD.modulemap"; sourceTree = "<group>"; };
 		CDA06FBC20494B969CB3869ECF4281D5 /* warning@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "warning@3x.png"; path = "Photo.bundle/warning@3x.png"; sourceTree = "<group>"; };
 		D293A2B25288F22818B2C21FF68E499A /* SHCHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SHCHUD-prefix.pch"; sourceTree = "<group>"; };
 		D3A451499F6CA387F70B8D0D47EE2DC6 /* SHCHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SHCHUD.xcconfig; sourceTree = "<group>"; };
@@ -203,7 +203,7 @@
 			children = (
 				A9A01E34D335605D3706361EA43DB0E1 /* HUD.h */,
 				69ADFFDFB8A7762387BF760A9F4F851F /* HUD.swift */,
-				932BF1386197B69325CB6DC5E753F568 /* SHCHUD.swift */,
+				20C42E771F726366008FBE87 /* SHCHUD.swift */,
 				1946D2C559FE27B8A085C04A32B2D2FB /* Resources */,
 				CF39019FBC017ED825FAACD894CAF87F /* Support Files */,
 			);
@@ -327,6 +327,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0700;
+				TargetAttributes = {
+					C11C18D3993593A2E112B8867BB4E49A = {
+						LastSwiftMigration = 0900;
+					};
+				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -392,9 +397,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20C42E781F726366008FBE87 /* SHCHUD.swift in Sources */,
 				29390C369A67A5C615ACC53D58287853 /* HUD.swift in Sources */,
 				21A55EBECEC7C07C90B3B5DCCD8AA6A4 /* SHCHUD-dummy.m in Sources */,
-				02B9CC9FD90F5AEA5511C4EA0CDD2A58 /* SHCHUD.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -556,6 +561,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 76FB7B8C1768DEC093759CFB60D970B2 /* Pods-testHUD.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -629,6 +635,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0A0AE4103EAD06509BAE8B481C4015F4 /* Pods-testHUD.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
