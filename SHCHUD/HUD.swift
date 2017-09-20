@@ -28,6 +28,14 @@ public class HUD: UIView {
   let imageView = UIImageView()
   let label = UILabel()
   
+  var bundle: Bundle {
+    get{
+      guard let path = Bundle(for: SHCHUD.self).path(forResource: "Photo", ofType: "bundle") else { return Bundle() }
+      guard let bundle = Bundle(path: path) else { return Bundle() }
+      return bundle
+    }
+  }
+  
   var imageSize = CGSize(width: 50, height: 50)
   var labelSize = CGSize.zero
   
@@ -171,6 +179,7 @@ extension HUD {
     if timer == nil { return }
     timer?.invalidate()
     timer = nil
+    stopAnimation = false
     print("移除定时器")
   }
 }
@@ -185,16 +194,23 @@ extension HUD {
     case .info:
       removeTimer()
       addAnimation()
-      imageView.image = UIImage(named: "info")?.withRenderingMode(.alwaysTemplate)
+      imageView.image = UIImage(named: "rotation.png",
+                                in: bundle,
+                                compatibleWith: nil)
     case .success:
       imageView.layer.removeAllAnimations()
       beginTimer()
-      imageView.image = UIImage(named: "success")?.withRenderingMode(.alwaysTemplate)
+      imageView.image = UIImage(named: "success.png",
+                                in: bundle,
+                                compatibleWith: nil)
     case .error:
       imageView.layer.removeAllAnimations()
       beginTimer()
-      imageView.image = UIImage(named: "error")?.withRenderingMode(.alwaysTemplate)
+      imageView.image = UIImage(named: "error.png",
+                                in: bundle,
+                                compatibleWith: nil)
     }
+    
     // 计算图片
     imageSize = imageView.image?.size ?? CGSize(width: 50, height: 50)
     buildUI()
@@ -208,7 +224,9 @@ extension HUD {
     
     switch type {
     case .top:
-      imageView.image = UIImage(named: "success")?.withRenderingMode(.alwaysTemplate)
+      imageView.image = UIImage(named: "success.png",
+                                in: bundle,
+                                compatibleWith: nil)?.withRenderingMode(.alwaysTemplate)
       buildUI(type: .top)
       self.layoutIfNeeded()
       GCDLock = true
