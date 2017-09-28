@@ -180,7 +180,6 @@ extension HUD {
     timer?.invalidate()
     timer = nil
     stopAnimation = false
-    print("移除定时器")
   }
 }
 
