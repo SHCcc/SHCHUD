@@ -119,7 +119,7 @@ extension HUD {
     }
   }
   private func buildTopView() {
-    frame = CGRect(x: 0, y: 20, width: frame.width, height: 44)
+    frame = CGRect(x: 0, y: UIApplication.shared.statusBarFrame.height, width: frame.width, height: 44)
     backView.frame = CGRect(x: 0, y: -44, width: frame.width, height: 44)
     backView.backgroundColor = UIColor.gray
     backView.layer.cornerRadius = 0
@@ -240,6 +240,7 @@ extension HUD {
             UIView.animate(withDuration: 0.3, animations: { [weak self] in
               guard let base = self else { return }
               if base.stopAnimation { return }
+              
               base.backView.frame = CGRect(x: 0, y: -44, width: base.frame.width, height: 44)
               }, completion: { [weak self] (true) in
                 guard let base = self else { return }
