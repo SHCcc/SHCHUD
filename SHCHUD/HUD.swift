@@ -9,14 +9,15 @@
 import UIKit
 
 enum Status {
-  case success
-  case error
-  case info
+  case success // 成功
+  case error   // 失败
+  case info    // 加载ing
 }
 
 enum Notice {
-  case top
-  case bottom
+  case top    // 顶部通知
+  case string  // 字符串
+  case bottom // 底部通知
 }
 
 public class HUD: UIView {
@@ -114,7 +115,9 @@ extension HUD {
     switch type {
     case .top:
       buildTopView()
-    default:
+    case .string:
+      buildMiddleView()
+    case .bottom:
       buildBottomView()
     }
   }
@@ -130,13 +133,37 @@ extension HUD {
     label.textColor = UIColor.white
     label.numberOfLines = 1
     
-    imageView.frame = CGRect(x: 10, y: 10, width: 25, height: 25)
+    let imageWidth  = imageView.image?.size.width == 0 ? 0 : 25
+    let imageHeight = imageView.image?.size.height == 0 ? 0 : 25
+    imageView.frame = CGRect(x: 10, y: 10, width: imageWidth, height: imageHeight)
+    let x = 10 + imageView.frame.maxX
     let height = labelSize.height > 44 ? 44 : labelSize.height
-    label.frame = CGRect(x: 10 + imageView.frame.maxX, y: (44 - height) / 2, width: labelSize.width, height: height)
+    let width = UIScreen.main.bounds.width - x
+    label.frame = CGRect(x: x, y: (44 - height) / 2, width: width, height: height)
+  }
+  
+  private func buildMiddleView() {
+    backView.backgroundColor = UIColor.black
+    backView.alpha = 0.7
+    backView.layer.cornerRadius = 15
+    
+    imageView.removeFromSuperview()
+    
+    label.font = UIFont.systemFont(ofSize: 16)
+    label.textColor = UIColor.white
+    label.numberOfLines = 0
+    
+    let width = (labelSize.width < 80 ? 80 : labelSize.width) + 20
+    let height = (labelSize.height < 24 ? 24 : labelSize.height) + 20
+    let y = (frame.height - height)/2 - 20
+    
+    frame = CGRect(x: (frame.width - width) / 2, y: y, width: width, height: height)
+    backView.frame = CGRect(x: 0, y: 0, width: width, height: height)
+    label.frame = CGRect(x: (frame.width - labelSize.width) / 2, y: (frame.height - labelSize.height) / 2, width: labelSize.width, height: labelSize.height)
   }
   
   private func buildBottomView() {
-    backView.frame = CGRect(x: 0, y: 0, width: frame.width, height: frame.height)
+    
     backView.backgroundColor = UIColor.gray
     backView.layer.cornerRadius = 0
     
@@ -148,7 +175,10 @@ extension HUD {
     
     let width = (labelSize.width < 110 ? 110 : labelSize.width) + 10
     let height = labelSize.height + 16
-    frame = CGRect(x: (frame.width - width) / 2, y: (frame.height - (height + 100)), width: width, height: height)
+    let y = (frame.height - (height + 100))
+    
+    frame = CGRect(x: (frame.width - width) / 2, y: y, width: width, height: height)
+    backView.frame = CGRect(x: 0, y: 0, width: width, height: height)
     label.frame = CGRect(x: (frame.width - labelSize.width) / 2, y: (frame.height - labelSize.height) / 2, width: labelSize.width, height: labelSize.height)
   }
 }
@@ -184,7 +214,7 @@ extension HUD {
 }
 
 extension HUD {
-  fileprivate func show(status: Status = .info, string: String) {
+  fileprivate func show(status: Status, string: String) {
     if GCDLock { return }
     // 计算文本
     calculateSize(string: string)
@@ -215,7 +245,7 @@ extension HUD {
     buildUI()
   }
   
-  fileprivate func notice(type :Notice, string: String) {
+  fileprivate func notice(type :Notice, string: String, isShowImage: Bool = true) {
     if GCDLock { return }
     imageView.layer.removeAllAnimations()
     removeTimer()
@@ -223,9 +253,14 @@ extension HUD {
     
     switch type {
     case .top:
-      imageView.image = UIImage(named: "success.png",
-                                in: bundle,
-                                compatibleWith: nil)?.withRenderingMode(.alwaysTemplate)
+      var image = UIImage()
+      if isShowImage {
+        image = UIImage(named: "success.png",
+                        in: bundle,
+                        compatibleWith: nil)?.withRenderingMode(.alwaysTemplate) ?? UIImage()
+        
+      }
+      imageView.image = image
       buildUI(type: .top)
       self.layoutIfNeeded()
       GCDLock = true
@@ -249,6 +284,9 @@ extension HUD {
       })
     case .bottom:
       buildUI(type: .bottom)
+      beginTimer()
+    case .string:
+      buildUI(type: .string)
       beginTimer()
     }
   }
@@ -285,8 +323,8 @@ extension HUD {
 }
 
 public extension HUD {
-  public class func show(string status: String) {
-    sharedView.show(string: status)
+  public class func show(info status: String) {
+    sharedView.show(status: .info, string: status)
   }
   
   public class func show(success status: String) {
@@ -297,8 +335,12 @@ public extension HUD {
     sharedView.show(status: .error ,string: status)
   }
   
-  public class func showTop(string status: String) {
-    sharedView.notice(type: .top, string: status)
+  public class func showTop(string status: String, isShowImage: Bool = true) {
+    sharedView.notice(type: .top, string: status, isShowImage: isShowImage)
+  }
+  
+  public class func show(string status: String) {
+    sharedView.notice(type: .string, string: status)
   }
   
   public class func showBottom(string status: String) {

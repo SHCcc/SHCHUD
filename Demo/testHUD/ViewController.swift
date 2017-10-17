@@ -10,13 +10,16 @@ import UIKit
 import SHCHUD
 
 class ViewController: UIViewController {
-
+  
+  let textField = UITextField()
+  
   let btn = UIButton()
   let btn1 = UIButton()
   let btn2 = UIButton()
   let btn3 = UIButton()
   let btn4 = UIButton()
   let btn5 = UIButton()
+  let btn6 = UIButton()
   
   override func viewDidLoad() {
     super.viewDidLoad()
@@ -28,14 +31,19 @@ class ViewController: UIViewController {
   }
   
   func setUI() {
+    view.addSubview(textField)
     view.addSubview(btn)
     view.addSubview(btn1)
     view.addSubview(btn2)
     view.addSubview(btn3)
     view.addSubview(btn4)
     view.addSubview(btn5)
+    view.addSubview(btn6)
     
-    btn.frame = CGRect(x: 10, y: 210, width: 100, height: 40)
+    textField.frame = CGRect(x: 120, y: 50, width: 200, height: 40)
+    textField.backgroundColor = UIColor.blue
+    
+    btn.frame = CGRect(x: 10, y: 290, width: 100, height: 40)
     btn.setTitle("移除", for: .normal)
     btn.setTitleColor(UIColor.black, for: .normal)
     btn.addTarget(self, action: #selector(ViewController.dissmiss), for: .touchUpInside)
@@ -60,11 +68,16 @@ class ViewController: UIViewController {
     btn4.setTitleColor(UIColor.black, for: .normal)
     btn4.addTarget(self, action: #selector(ViewController.bottom), for: .touchUpInside)
     
-    btn5.frame = CGRect(x: 10, y: 250, width: 100, height: 40)
+    btn5.frame = CGRect(x: 10, y: 210, width: 100, height: 40)
     btn5.setTitle("图片", for: .normal)
     btn5.setTitleColor(UIColor.black, for: .normal)
     btn5.addTarget(self, action: #selector(ViewController.image), for: .touchUpInside)
-  }
+
+    btn6.frame = CGRect(x: 10, y: 250, width: 100, height: 40)
+    btn6.setTitle("提示语", for: .normal)
+    btn6.setTitleColor(UIColor.black, for: .normal)
+    btn6.addTarget(self, action: #selector(ViewController.string), for: .touchUpInside)
+}
 
   
   @objc func dissmiss() {
@@ -73,22 +86,26 @@ class ViewController: UIViewController {
   }
   
   @objc func success() {
-    HUD.show(success: "加载成功")
+    let str = textField.text!.isEmpty ? "加载成功" : textField.text ?? ""
+    HUD.show(success: str)
     print("success")
   }
   
   @objc func falses() {
-    HUD.show(false: "加载失败")
+    let str = textField.text!.isEmpty ? "加载失败" : textField.text ?? ""
+    HUD.show(false: str)
     print("false")
   }
   
   @objc func top() {
-    HUD.showTop(string: "顶部labelSize.heightlabelSize.heightlabelSize.heightlabelSize.height")
+    let str = textField.text!.isEmpty ? "顶部labelSize.heightlabelSize.heightlabelSize.heightlabelSize.height" : textField.text ?? ""
+    HUD.showTop(string: str, isShowImage: false)
     print("顶部通知")
   }
   
   @objc func bottom() {
-    HUD.showBottom(string: "底部")
+    let str = textField.text!.isEmpty ? "底部" : textField.text ?? ""
+    HUD.showBottom(string: str)
     print("底部")
   }
   
@@ -96,10 +113,17 @@ class ViewController: UIViewController {
     HUD.showImage(image: UIImage(named: "rotation") ?? UIImage())
     print("图片")
   }
-  
-  override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
-    HUD.show(string: "加载中")
+  @objc func string() {
+    let str = textField.text!.isEmpty ? "加载一会-加载一会加载一会加载一会加载一会加载一会加载一会加载一会加载一会加载一会加载一会" : textField.text ?? ""
+    HUD.show(string: str)
     print("show")
   }
+  override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+    let str = textField.text!.isEmpty ? "加载中" : textField.text ?? ""
+    HUD.show(info: str)
+    print("info")
+
+  }
 }
+
 
