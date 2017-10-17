@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
 s.name         = 'SHCHUD'
-s.version      = '1.1.0'
+s.version      = '1.1.1'
 s.summary      = 'swift版的HUD'
 s.description  = '一个其余swift3的提示语HUD，包含的顶部底部和中部的三种样式。'
 s.homepage     = 'https://github.com/SHCcc/SHCHUD'
@@ -13,4 +13,5 @@ s.source       = { :git => "https://github.com/SHCcc/SHCHUD.git", :tag => s.vers
 s.source_files  = ["SHCHUD/*/**", "SHCHUD/**"]
 s.resource_bundles = { 'Photo' => ['Photo.bundle/*.png']}
 s.requires_arc = true
+s.pod_target_xcconfig = { 'SWIFT_VERSION' => '4.0' }
 end
