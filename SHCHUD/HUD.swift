@@ -225,19 +225,19 @@ extension HUD {
       addAnimation()
       imageView.image = UIImage(named: "rotation.png",
                                 in: bundle,
-                                compatibleWith: nil)
+                                compatibleWith: nil)?.withRenderingMode(.alwaysTemplate)
     case .success:
       imageView.layer.removeAllAnimations()
       beginTimer()
       imageView.image = UIImage(named: "success.png",
                                 in: bundle,
-                                compatibleWith: nil)
+                                compatibleWith: nil)?.withRenderingMode(.alwaysTemplate)
     case .error:
       imageView.layer.removeAllAnimations()
       beginTimer()
       imageView.image = UIImage(named: "error.png",
                                 in: bundle,
-                                compatibleWith: nil)
+                                compatibleWith: nil)?.withRenderingMode(.alwaysTemplate)
     }
     
     // 计算图片

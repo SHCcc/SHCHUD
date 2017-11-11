@@ -1,8 +1,8 @@
 {
   "name": "SHCHUD",
-  "version": "1.0.9",
-  "summary": "A short description of SHCHUD. 这是一个简单的HUD",
-  "description": "iOS swift HUD",
+  "version": "1.1.2",
+  "summary": "swift版的HUD",
+  "description": "一个swift4的提示语HUD，包含的顶部底部和中部的三种样式。",
   "homepage": "https://github.com/SHCcc/SHCHUD",
   "license": "MIT",
   "platforms": {
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/SHCcc/SHCHUD.git",
-    "tag": "1.0.9"
+    "tag": "1.1.2"
   },
   "source_files": [
     "SHCHUD/*/**",
@@ -24,5 +24,8 @@
       "Photo.bundle/*.png"
     ]
   },
-  "requires_arc": true
+  "requires_arc": true,
+  "pod_target_xcconfig": {
+    "SWIFT_VERSION": "4.0"
+  }
 }

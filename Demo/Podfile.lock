@@ -1,5 +1,5 @@
 PODS:
-  - SHCHUD (1.0.9)
+  - SHCHUD (1.1.2)
 
 DEPENDENCIES:
   - SHCHUD (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  SHCHUD: fffe4c8a8791d7e11eea3eb7aae91599e497a7c2
+  SHCHUD: 6edbaba7e5b387512f80440d1333e4bea6d25b3c
 
 PODFILE CHECKSUM: c3b9a316f66a995cd7cf28d7aa8c1c5708435d8c
 
