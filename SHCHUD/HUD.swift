@@ -26,6 +26,8 @@ public class HUD: UIView {
   
   static let sharedView = HUD()
   
+  var notification: Notification?
+  
   var GCDLock = false
   
   let backView = UIView()
@@ -71,7 +73,6 @@ extension HUD {
     
     backView.frame = CGRect(x: 0, y: 0, width: frame.width, height: frame.height)
     backView.backgroundColor = backColor
-//    backView.alpha = 1
     backView.layer.cornerRadius = 15
     backView.layer.masksToBounds = true
     
@@ -145,7 +146,6 @@ extension HUD {
   
   private func buildMiddleView() {
     backView.backgroundColor = backColor
-//    backView.alpha = 1
     backView.layer.cornerRadius = 15
     
     imageView.removeFromSuperview()
@@ -187,7 +187,7 @@ extension HUD {
 
 extension HUD {
   /// 开启定时器
-  func beginTimer() {
+  @objc func beginTimer() {
     if timer != nil {
       timer?.invalidate()
       timer = nil
@@ -220,7 +220,6 @@ extension HUD {
     // 计算文本
     calculateSize(string: string)
     
-    
     /// 设置图片
     func setImage(name: String) {
       imageView.image = UIImage(named: name,
@@ -236,7 +235,6 @@ extension HUD {
       imageView.layer.masksToBounds = true
       let view = UIView()
       view.backgroundColor = backColor
-//      view.alpha = 1
       view.frame = CGRect(x: 2, y: 2, width: 36, height: 36)
       view.layer.cornerRadius = 18
       view.layer.masksToBounds = true
