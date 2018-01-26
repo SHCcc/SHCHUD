@@ -7,31 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		02B9CC9FD90F5AEA5511C4EA0CDD2A58 /* SHCHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932BF1386197B69325CB6DC5E753F568 /* SHCHUD.swift */; };
-		053A75E29C8488A88AD484F1349BE76C /* angle-mask@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52C3FD71F3F30B3FE93F82430A811A38 /* angle-mask@2x.png */; };
-		08B8C4EA36DEC547586C034E6AB0E165 /* SHCHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F1CD56D1ED3C265B023E56D8320B83 /* SHCHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		17D665687F14F40E085337128BB3065C /* rotation@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F60C62CC98C094F4F775AE017992EEE /* rotation@2x.png */; };
+		02B9CC9FD90F5AEA5511C4EA0CDD2A58 /* SHCHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5565523C6E962A570EBF9746BEF1E1B3 /* SHCHUD.swift */; };
+		053A75E29C8488A88AD484F1349BE76C /* angle-mask@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A20ACDD4A2FEFE67C99462FEA1247451 /* angle-mask@2x.png */; };
+		08B8C4EA36DEC547586C034E6AB0E165 /* SHCHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BAF35FF14885783D8AD8E890F733F7C7 /* SHCHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		17D665687F14F40E085337128BB3065C /* rotation@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D555CF8A451479F17E4AEC91DD3AAA1B /* rotation@2x.png */; };
 		1FA7F070BBBA51CE87D16A0950A2ED4F /* Pods-testHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F3DE76919B09BCFA9A0ECC6B84AA3BF7 /* Pods-testHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		204D715F3EC1CA95AB3811488612A70F /* HUD.h in Headers */ = {isa = PBXBuildFile; fileRef = A9A01E34D335605D3706361EA43DB0E1 /* HUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		20C10572851BF3F7DF231D5931DA9C0A /* error@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 14E52E9F70F14D84F4369FF720B784AB /* error@2x.png */; };
-		21A55EBECEC7C07C90B3B5DCCD8AA6A4 /* SHCHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 68D41367338F9530BFE3EED59A034CBB /* SHCHUD-dummy.m */; };
-		24A7CF6868A6801D00EF3005477D41EB /* Photo.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 40FF1951366EDD78E6CB561DF3A2562A /* Photo.bundle */; };
-		29390C369A67A5C615ACC53D58287853 /* HUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69ADFFDFB8A7762387BF760A9F4F851F /* HUD.swift */; };
-		3EC8CD03CB2E694206BD850D919240E8 /* success@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 59FC5B88C33A2418A24BC2200E22AA34 /* success@2x.png */; };
-		48C0D2EE09CFBD25E31944BF23BE1C7A /* error.png in Resources */ = {isa = PBXBuildFile; fileRef = D752E1A3E48F05D053DE0F6748DA30D8 /* error.png */; };
-		5C5A0AE73E8C4743CB32BFAB56ABAF5C /* warning.png in Resources */ = {isa = PBXBuildFile; fileRef = D97FF13D2C8661892EBA0DD16D24E5B2 /* warning.png */; };
+		204D715F3EC1CA95AB3811488612A70F /* HUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 43E605723DF518ED38743E2AAFA14A93 /* HUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		20C10572851BF3F7DF231D5931DA9C0A /* error@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D359309CF8B65E4692BF54F29AA9271D /* error@2x.png */; };
+		21A55EBECEC7C07C90B3B5DCCD8AA6A4 /* SHCHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 320ACAC771A196E08C425808EBDFDFE2 /* SHCHUD-dummy.m */; };
+		29390C369A67A5C615ACC53D58287853 /* HUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 431D6B16F995BEF44FCB25F881A7E89C /* HUD.swift */; };
+		3EC8CD03CB2E694206BD850D919240E8 /* success@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A1FFC68A7EFCA588BE716928531DB56 /* success@2x.png */; };
+		48C0D2EE09CFBD25E31944BF23BE1C7A /* error.png in Resources */ = {isa = PBXBuildFile; fileRef = E1D0E4A258816D5628ABBCE6A4C5CE5A /* error.png */; };
+		5C5A0AE73E8C4743CB32BFAB56ABAF5C /* warning.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DF6880300A6AA90A8067344354CA009 /* warning.png */; };
 		601D75D86B7BF22733F8125C9C6BD76D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		6A94EC88F35BCFC8DA4AF3791080D3A2 /* warning@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CDA06FBC20494B969CB3869ECF4281D5 /* warning@3x.png */; };
-		6B7EA646A34B28B2CAB9DA65D886030D /* angle-mask.png in Resources */ = {isa = PBXBuildFile; fileRef = E371A17BF0BA49C613B077683DF074C6 /* angle-mask.png */; };
-		6CC40DD46BA2BACF7FCECB1611EEF34E /* error@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 39E5A7BA10EA3972ADEEE93B42201689 /* error@3x.png */; };
-		74ED2FA6E564324EE5EA625B9D161E6C /* angle-mask@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC80D30B9DC9297B7A4EEEC33962C50D /* angle-mask@3x.png */; };
-		7F91B457FB165AB708F2389B0F589082 /* rotation.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C027E19561B9070F29621E0A9237776 /* rotation.png */; };
+		6A94EC88F35BCFC8DA4AF3791080D3A2 /* warning@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C38E4B2FE4FECB744B1B1BCBB5571A45 /* warning@3x.png */; };
+		6B7EA646A34B28B2CAB9DA65D886030D /* angle-mask.png in Resources */ = {isa = PBXBuildFile; fileRef = C0AB38754F82490B578838A618DE4525 /* angle-mask.png */; };
+		6CC40DD46BA2BACF7FCECB1611EEF34E /* error@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B90A71317CE2C6E07BC5BC9479CC5965 /* error@3x.png */; };
+		74ED2FA6E564324EE5EA625B9D161E6C /* angle-mask@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CD55119DE055B2197B1E48ED8B525938 /* angle-mask@3x.png */; };
+		7F91B457FB165AB708F2389B0F589082 /* rotation.png in Resources */ = {isa = PBXBuildFile; fileRef = AFBE010BAE59E90393583F70F476AB43 /* rotation.png */; };
 		86C83E2EC538042F88C1B44F2E76A598 /* Pods-testHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C1FBED0699F4D3D79C241BB3E1965D09 /* Pods-testHUD-dummy.m */; };
-		8B9B8FB2D4B93B0CF7ECED8AD90D4303 /* rotation@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C4F5B9CC656455E5C055719FD9C0A30E /* rotation@3x.png */; };
-		9313D42EBF0079A55AB348796273941C /* warning@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 00D42C95A40D79368BDBD59044EFB11D /* warning@2x.png */; };
-		A46101FDFAC2FB7984E6E0DF2D9FF441 /* success@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C9037E1DB1727D1B668D3B15C1B6B82B /* success@3x.png */; };
-		AD689D0AC26444357EA4DF98490178BF /* success.png in Resources */ = {isa = PBXBuildFile; fileRef = BB771D545869C646424403A6895B6BA6 /* success.png */; };
+		8B9B8FB2D4B93B0CF7ECED8AD90D4303 /* rotation@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EB067CA9F394AA517E273D6E71473C4 /* rotation@3x.png */; };
+		9313D42EBF0079A55AB348796273941C /* warning@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A07EEEBB33F719B2569A35BEDEBAA187 /* warning@2x.png */; };
+		A46101FDFAC2FB7984E6E0DF2D9FF441 /* success@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D96FE43E9C4DCF4359361A70009FB84D /* success@3x.png */; };
+		AD689D0AC26444357EA4DF98490178BF /* success.png in Resources */ = {isa = PBXBuildFile; fileRef = B7F58E3E1625785395FCE020EB3AD98D /* success.png */; };
 		CD26D1E490A201D6AA8925DBDC1CC6E9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		F6B912B85FCDD83089C3D9FC0EC6BAAE /* Photo.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CC565AA6A40BA020C9E626869AD941A5 /* Photo.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,44 +53,47 @@
 
 /* Begin PBXFileReference section */
 		00531A3C7EF795EFE049AE7B82DB472A /* Pods-testHUD-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-testHUD-acknowledgements.plist"; sourceTree = "<group>"; };
-		00D42C95A40D79368BDBD59044EFB11D /* warning@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "warning@2x.png"; path = "Photo.bundle/warning@2x.png"; sourceTree = "<group>"; };
 		014106F199812EC688AAA3FC6D3418A2 /* Pods-testHUD-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-testHUD-acknowledgements.markdown"; sourceTree = "<group>"; };
-		01A93A83167DF478D0953F240BF75B5D /* SHCHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SHCHUD.framework; path = SHCHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		01FBD6C8A4D5EEA0A957360921F81B49 /* ResourceBundle-Photo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-Photo-Info.plist"; sourceTree = "<group>"; };
 		0A0AE4103EAD06509BAE8B481C4015F4 /* Pods-testHUD.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-testHUD.debug.xcconfig"; sourceTree = "<group>"; };
+		0EB067CA9F394AA517E273D6E71473C4 /* rotation@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "rotation@3x.png"; path = "Photo.bundle/rotation@3x.png"; sourceTree = "<group>"; };
 		11269A5CFE639EDF2BEF6AC10D3B28BF /* Pods-testHUD-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-testHUD-frameworks.sh"; sourceTree = "<group>"; };
-		14E52E9F70F14D84F4369FF720B784AB /* error@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "error@2x.png"; path = "Photo.bundle/error@2x.png"; sourceTree = "<group>"; };
-		39E5A7BA10EA3972ADEEE93B42201689 /* error@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "error@3x.png"; path = "Photo.bundle/error@3x.png"; sourceTree = "<group>"; };
-		40FF1951366EDD78E6CB561DF3A2562A /* Photo.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = Photo.bundle; path = Photo.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		46CD8ABD77F0C6DD6DFD1836856C7003 /* Pods_testHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_testHUD.framework; path = "Pods-testHUD.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1665A9AE10BEB0F6DC54BF5436CDF025 /* SHCHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SHCHUD.xcconfig; sourceTree = "<group>"; };
+		172F208D61C0314561810CB3C21CB3FB /* ResourceBundle-Photo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-Photo-Info.plist"; sourceTree = "<group>"; };
+		181CB71F0F4204DB67651A9564FE3711 /* SHCHUD.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = SHCHUD.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		320ACAC771A196E08C425808EBDFDFE2 /* SHCHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SHCHUD-dummy.m"; sourceTree = "<group>"; };
+		431D6B16F995BEF44FCB25F881A7E89C /* HUD.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HUD.swift; path = SHCHUD/HUD.swift; sourceTree = "<group>"; };
+		43E605723DF518ED38743E2AAFA14A93 /* HUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HUD.h; path = SHCHUD/HUD.h; sourceTree = "<group>"; };
 		4D36CF45469D38B13D35335ED23C3764 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		52C3FD71F3F30B3FE93F82430A811A38 /* angle-mask@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "angle-mask@2x.png"; path = "Photo.bundle/angle-mask@2x.png"; sourceTree = "<group>"; };
-		59FC5B88C33A2418A24BC2200E22AA34 /* success@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "success@2x.png"; path = "Photo.bundle/success@2x.png"; sourceTree = "<group>"; };
+		504F9DEEC1C0EFBFBD26A3E8EBC05502 /* SHCHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SHCHUD.framework; path = SHCHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5565523C6E962A570EBF9746BEF1E1B3 /* SHCHUD.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SHCHUD.swift; path = SHCHUD/SHCHUD.swift; sourceTree = "<group>"; };
+		5A1FFC68A7EFCA588BE716928531DB56 /* success@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "success@2x.png"; path = "Photo.bundle/success@2x.png"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		68D41367338F9530BFE3EED59A034CBB /* SHCHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SHCHUD-dummy.m"; sourceTree = "<group>"; };
-		69ADFFDFB8A7762387BF760A9F4F851F /* HUD.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HUD.swift; path = SHCHUD/HUD.swift; sourceTree = "<group>"; };
-		6AAE5D4646AD835A02A9C5DD03FC3EB0 /* SHCHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SHCHUD.modulemap; sourceTree = "<group>"; };
-		6B3291D9246A5D046AF21C130225F88A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6F60C62CC98C094F4F775AE017992EEE /* rotation@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "rotation@2x.png"; path = "Photo.bundle/rotation@2x.png"; sourceTree = "<group>"; };
 		76FB7B8C1768DEC093759CFB60D970B2 /* Pods-testHUD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-testHUD.release.xcconfig"; sourceTree = "<group>"; };
-		7C027E19561B9070F29621E0A9237776 /* rotation.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = rotation.png; path = Photo.bundle/rotation.png; sourceTree = "<group>"; };
-		91F1CD56D1ED3C265B023E56D8320B83 /* SHCHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SHCHUD-umbrella.h"; sourceTree = "<group>"; };
-		932BF1386197B69325CB6DC5E753F568 /* SHCHUD.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SHCHUD.swift; path = SHCHUD/SHCHUD.swift; sourceTree = "<group>"; };
+		792202D6868D322EF058ACBA35144136 /* Pods_testHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_testHUD.framework; path = "Pods-testHUD.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		796602F89B506DC8204E40CE859FEA5A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A9A01E34D335605D3706361EA43DB0E1 /* HUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HUD.h; path = SHCHUD/HUD.h; sourceTree = "<group>"; };
-		BB771D545869C646424403A6895B6BA6 /* success.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = success.png; path = Photo.bundle/success.png; sourceTree = "<group>"; };
-		BC80D30B9DC9297B7A4EEEC33962C50D /* angle-mask@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "angle-mask@3x.png"; path = "Photo.bundle/angle-mask@3x.png"; sourceTree = "<group>"; };
+		9DF6880300A6AA90A8067344354CA009 /* warning.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = warning.png; path = Photo.bundle/warning.png; sourceTree = "<group>"; };
+		A07EEEBB33F719B2569A35BEDEBAA187 /* warning@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "warning@2x.png"; path = "Photo.bundle/warning@2x.png"; sourceTree = "<group>"; };
+		A20ACDD4A2FEFE67C99462FEA1247451 /* angle-mask@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "angle-mask@2x.png"; path = "Photo.bundle/angle-mask@2x.png"; sourceTree = "<group>"; };
+		A3E3D070FBF513F42A6BD3782C9EF01A /* SHCHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SHCHUD.modulemap; sourceTree = "<group>"; };
+		AA34A3A39D19D53C78F778EEE6143674 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		AFA257385473ACF0950A4BAB49C07A26 /* SHCHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SHCHUD-prefix.pch"; sourceTree = "<group>"; };
+		AFBE010BAE59E90393583F70F476AB43 /* rotation.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = rotation.png; path = Photo.bundle/rotation.png; sourceTree = "<group>"; };
+		B7F58E3E1625785395FCE020EB3AD98D /* success.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = success.png; path = Photo.bundle/success.png; sourceTree = "<group>"; };
+		B90A71317CE2C6E07BC5BC9479CC5965 /* error@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "error@3x.png"; path = "Photo.bundle/error@3x.png"; sourceTree = "<group>"; };
+		BAF35FF14885783D8AD8E890F733F7C7 /* SHCHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SHCHUD-umbrella.h"; sourceTree = "<group>"; };
 		BDABFE6297B0E42B25A8A0BD9809D4A8 /* Pods-testHUD-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-testHUD-resources.sh"; sourceTree = "<group>"; };
+		C0AB38754F82490B578838A618DE4525 /* angle-mask.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "angle-mask.png"; path = "Photo.bundle/angle-mask.png"; sourceTree = "<group>"; };
 		C1FBED0699F4D3D79C241BB3E1965D09 /* Pods-testHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-testHUD-dummy.m"; sourceTree = "<group>"; };
-		C4F5B9CC656455E5C055719FD9C0A30E /* rotation@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "rotation@3x.png"; path = "Photo.bundle/rotation@3x.png"; sourceTree = "<group>"; };
-		C9037E1DB1727D1B668D3B15C1B6B82B /* success@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "success@3x.png"; path = "Photo.bundle/success@3x.png"; sourceTree = "<group>"; };
+		C38E4B2FE4FECB744B1B1BCBB5571A45 /* warning@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "warning@3x.png"; path = "Photo.bundle/warning@3x.png"; sourceTree = "<group>"; };
 		CA9AF27E1D6D10208897B7AEC2ADB838 /* Pods-testHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-testHUD.modulemap"; sourceTree = "<group>"; };
-		CDA06FBC20494B969CB3869ECF4281D5 /* warning@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "warning@3x.png"; path = "Photo.bundle/warning@3x.png"; sourceTree = "<group>"; };
-		D293A2B25288F22818B2C21FF68E499A /* SHCHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SHCHUD-prefix.pch"; sourceTree = "<group>"; };
-		D3A451499F6CA387F70B8D0D47EE2DC6 /* SHCHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SHCHUD.xcconfig; sourceTree = "<group>"; };
-		D752E1A3E48F05D053DE0F6748DA30D8 /* error.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = error.png; path = Photo.bundle/error.png; sourceTree = "<group>"; };
-		D97FF13D2C8661892EBA0DD16D24E5B2 /* warning.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = warning.png; path = Photo.bundle/warning.png; sourceTree = "<group>"; };
-		E371A17BF0BA49C613B077683DF074C6 /* angle-mask.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "angle-mask.png"; path = "Photo.bundle/angle-mask.png"; sourceTree = "<group>"; };
+		CC565AA6A40BA020C9E626869AD941A5 /* Photo.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = Photo.bundle; path = "SHCHUD-Photo.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD55119DE055B2197B1E48ED8B525938 /* angle-mask@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "angle-mask@3x.png"; path = "Photo.bundle/angle-mask@3x.png"; sourceTree = "<group>"; };
+		D359309CF8B65E4692BF54F29AA9271D /* error@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "error@2x.png"; path = "Photo.bundle/error@2x.png"; sourceTree = "<group>"; };
+		D3765DB523A20E54FB7E0D2AAB06E725 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D555CF8A451479F17E4AEC91DD3AAA1B /* rotation@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "rotation@2x.png"; path = "Photo.bundle/rotation@2x.png"; sourceTree = "<group>"; };
+		D96FE43E9C4DCF4359361A70009FB84D /* success@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "success@3x.png"; path = "Photo.bundle/success@3x.png"; sourceTree = "<group>"; };
+		E1D0E4A258816D5628ABBCE6A4C5CE5A /* error.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = error.png; path = Photo.bundle/error.png; sourceTree = "<group>"; };
 		F3DE76919B09BCFA9A0ECC6B84AA3BF7 /* Pods-testHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-testHUD-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -129,46 +132,6 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		1946D2C559FE27B8A085C04A32B2D2FB /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				E371A17BF0BA49C613B077683DF074C6 /* angle-mask.png */,
-				52C3FD71F3F30B3FE93F82430A811A38 /* angle-mask@2x.png */,
-				BC80D30B9DC9297B7A4EEEC33962C50D /* angle-mask@3x.png */,
-				D752E1A3E48F05D053DE0F6748DA30D8 /* error.png */,
-				14E52E9F70F14D84F4369FF720B784AB /* error@2x.png */,
-				39E5A7BA10EA3972ADEEE93B42201689 /* error@3x.png */,
-				7C027E19561B9070F29621E0A9237776 /* rotation.png */,
-				6F60C62CC98C094F4F775AE017992EEE /* rotation@2x.png */,
-				C4F5B9CC656455E5C055719FD9C0A30E /* rotation@3x.png */,
-				BB771D545869C646424403A6895B6BA6 /* success.png */,
-				59FC5B88C33A2418A24BC2200E22AA34 /* success@2x.png */,
-				C9037E1DB1727D1B668D3B15C1B6B82B /* success@3x.png */,
-				D97FF13D2C8661892EBA0DD16D24E5B2 /* warning.png */,
-				00D42C95A40D79368BDBD59044EFB11D /* warning@2x.png */,
-				CDA06FBC20494B969CB3869ECF4281D5 /* warning@3x.png */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		365989CC447D86A06BA7D6D70F49F125 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				A76D125DF97B055DE83234AD012689E6 /* SHCHUD */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		417DA4B80A0B0DC4A56EFC1A61E82401 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				40FF1951366EDD78E6CB561DF3A2562A /* Photo.bundle */,
-				46CD8ABD77F0C6DD6DFD1836856C7003 /* Pods_testHUD.framework */,
-				01A93A83167DF478D0953F240BF75B5D /* SHCHUD.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		4AE81A221EA60CF28658537ED4E9D921 /* Pods-testHUD */ = {
 			isa = PBXGroup;
 			children = (
@@ -187,25 +150,83 @@
 			path = "Target Support Files/Pods-testHUD";
 			sourceTree = "<group>";
 		};
+		68E7E7209257B9C2B4473D311E056632 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC565AA6A40BA020C9E626869AD941A5 /* Photo.bundle */,
+				792202D6868D322EF058ACBA35144136 /* Pods_testHUD.framework */,
+				504F9DEEC1C0EFBFBD26A3E8EBC05502 /* SHCHUD.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				365989CC447D86A06BA7D6D70F49F125 /* Development Pods */,
+				D500AD1949F146E8DDAB7D312AD154A7 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				417DA4B80A0B0DC4A56EFC1A61E82401 /* Products */,
+				68E7E7209257B9C2B4473D311E056632 /* Products */,
 				13F002C7D9E3D30C0FF3FF3005058EA2 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		A76D125DF97B055DE83234AD012689E6 /* SHCHUD */ = {
+		9150FB6C64A592F10BBFAFBC5BB15832 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				A9A01E34D335605D3706361EA43DB0E1 /* HUD.h */,
-				69ADFFDFB8A7762387BF760A9F4F851F /* HUD.swift */,
-				932BF1386197B69325CB6DC5E753F568 /* SHCHUD.swift */,
-				1946D2C559FE27B8A085C04A32B2D2FB /* Resources */,
-				CF39019FBC017ED825FAACD894CAF87F /* Support Files */,
+				796602F89B506DC8204E40CE859FEA5A /* LICENSE */,
+				AA34A3A39D19D53C78F778EEE6143674 /* README.md */,
+				181CB71F0F4204DB67651A9564FE3711 /* SHCHUD.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		9331132C5DBBE774FEBB0F9C7DFAED83 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C0AB38754F82490B578838A618DE4525 /* angle-mask.png */,
+				A20ACDD4A2FEFE67C99462FEA1247451 /* angle-mask@2x.png */,
+				CD55119DE055B2197B1E48ED8B525938 /* angle-mask@3x.png */,
+				E1D0E4A258816D5628ABBCE6A4C5CE5A /* error.png */,
+				D359309CF8B65E4692BF54F29AA9271D /* error@2x.png */,
+				B90A71317CE2C6E07BC5BC9479CC5965 /* error@3x.png */,
+				AFBE010BAE59E90393583F70F476AB43 /* rotation.png */,
+				D555CF8A451479F17E4AEC91DD3AAA1B /* rotation@2x.png */,
+				0EB067CA9F394AA517E273D6E71473C4 /* rotation@3x.png */,
+				B7F58E3E1625785395FCE020EB3AD98D /* success.png */,
+				5A1FFC68A7EFCA588BE716928531DB56 /* success@2x.png */,
+				D96FE43E9C4DCF4359361A70009FB84D /* success@3x.png */,
+				9DF6880300A6AA90A8067344354CA009 /* warning.png */,
+				A07EEEBB33F719B2569A35BEDEBAA187 /* warning@2x.png */,
+				C38E4B2FE4FECB744B1B1BCBB5571A45 /* warning@3x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		9C4A706376C493CCA55A3B277AC1ECE3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D3765DB523A20E54FB7E0D2AAB06E725 /* Info.plist */,
+				172F208D61C0314561810CB3C21CB3FB /* ResourceBundle-Photo-Info.plist */,
+				A3E3D070FBF513F42A6BD3782C9EF01A /* SHCHUD.modulemap */,
+				1665A9AE10BEB0F6DC54BF5436CDF025 /* SHCHUD.xcconfig */,
+				320ACAC771A196E08C425808EBDFDFE2 /* SHCHUD-dummy.m */,
+				AFA257385473ACF0950A4BAB49C07A26 /* SHCHUD-prefix.pch */,
+				BAF35FF14885783D8AD8E890F733F7C7 /* SHCHUD-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Demo/Pods/Target Support Files/SHCHUD";
+			sourceTree = "<group>";
+		};
+		AE72B320CFD6D79808983C933E74E21B /* SHCHUD */ = {
+			isa = PBXGroup;
+			children = (
+				43E605723DF518ED38743E2AAFA14A93 /* HUD.h */,
+				431D6B16F995BEF44FCB25F881A7E89C /* HUD.swift */,
+				5565523C6E962A570EBF9746BEF1E1B3 /* SHCHUD.swift */,
+				9150FB6C64A592F10BBFAFBC5BB15832 /* Pod */,
+				9331132C5DBBE774FEBB0F9C7DFAED83 /* Resources */,
+				9C4A706376C493CCA55A3B277AC1ECE3 /* Support Files */,
 			);
 			name = SHCHUD;
 			path = ../..;
@@ -219,27 +240,20 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		CF39019FBC017ED825FAACD894CAF87F /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				6B3291D9246A5D046AF21C130225F88A /* Info.plist */,
-				01FBD6C8A4D5EEA0A957360921F81B49 /* ResourceBundle-Photo-Info.plist */,
-				6AAE5D4646AD835A02A9C5DD03FC3EB0 /* SHCHUD.modulemap */,
-				D3A451499F6CA387F70B8D0D47EE2DC6 /* SHCHUD.xcconfig */,
-				68D41367338F9530BFE3EED59A034CBB /* SHCHUD-dummy.m */,
-				D293A2B25288F22818B2C21FF68E499A /* SHCHUD-prefix.pch */,
-				91F1CD56D1ED3C265B023E56D8320B83 /* SHCHUD-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Demo/Pods/Target Support Files/SHCHUD";
-			sourceTree = "<group>";
-		};
 		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
 			isa = PBXGroup;
 			children = (
 				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		D500AD1949F146E8DDAB7D312AD154A7 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AE72B320CFD6D79808983C933E74E21B /* SHCHUD */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -281,7 +295,7 @@
 			);
 			name = SHCHUD;
 			productName = SHCHUD;
-			productReference = 01A93A83167DF478D0953F240BF75B5D /* SHCHUD.framework */;
+			productReference = 504F9DEEC1C0EFBFBD26A3E8EBC05502 /* SHCHUD.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		C11C18D3993593A2E112B8867BB4E49A /* Pods-testHUD */ = {
@@ -299,7 +313,7 @@
 			);
 			name = "Pods-testHUD";
 			productName = "Pods-testHUD";
-			productReference = 46CD8ABD77F0C6DD6DFD1836856C7003 /* Pods_testHUD.framework */;
+			productReference = 792202D6868D322EF058ACBA35144136 /* Pods_testHUD.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		D08C824DD6881655B540751B1C25F2E9 /* SHCHUD-Photo */ = {
@@ -316,7 +330,7 @@
 			);
 			name = "SHCHUD-Photo";
 			productName = "SHCHUD-Photo";
-			productReference = 40FF1951366EDD78E6CB561DF3A2562A /* Photo.bundle */;
+			productReference = CC565AA6A40BA020C9E626869AD941A5 /* Photo.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
@@ -336,7 +350,7 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 417DA4B80A0B0DC4A56EFC1A61E82401 /* Products */;
+			productRefGroup = 68E7E7209257B9C2B4473D311E056632 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -352,7 +366,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				24A7CF6868A6801D00EF3005477D41EB /* Photo.bundle in Resources */,
+				F6B912B85FCDD83089C3D9FC0EC6BAAE /* Photo.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,100 +438,55 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1C7D17A37D091C98D2F0DD886C3A9320 /* Debug */ = {
+		242240AF161C669964DD098180E7CC78 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1665A9AE10BEB0F6DC54BF5436CDF025 /* SHCHUD.xcconfig */;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = NO;
-				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_DEBUG=1",
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SHCHUD/SHCHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SHCHUD/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				ONLY_ACTIVE_ARCH = YES;
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Debug;
-		};
-		34FE9531DA9AF2820790339988D5FF41 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SHCHUD/SHCHUD.modulemap";
+				PRODUCT_NAME = SHCHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		48F2209E9DD99951E52DCF6B570C01CB /* Release */ = {
+		5E1EC94271C0BD9236B2B1CA6F36DAC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1665A9AE10BEB0F6DC54BF5436CDF025 /* SHCHUD.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/SHCHUD";
+				INFOPLIST_FILE = "Target Support Files/SHCHUD/ResourceBundle-Photo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = Photo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		844BD3ED9FBE96AF6BFAE7667E2D8FBA /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 76FB7B8C1768DEC093759CFB60D970B2 /* Pods-testHUD.release.xcconfig */;
 			buildSettings = {
@@ -526,20 +495,16 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-testHUD/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-testHUD/Pods-testHUD.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -548,14 +513,14 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		7A010D8CAB2C222D69F6EFBEAD2D12F9 /* Debug */ = {
+		928D40F9CB19E99937DA4105030A998A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0A0AE4103EAD06509BAE8B481C4015F4 /* Pods-testHUD.debug.xcconfig */;
 			buildSettings = {
@@ -564,20 +529,16 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-testHUD/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-testHUD/Pods-testHUD.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -587,53 +548,86 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		C140E893045E50D3AE965DCBB25D3EC9 /* Debug */ = {
+		B254DAA6CF0CE39F4A3D11B90A7E059A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D3A451499F6CA387F70B8D0D47EE2DC6 /* SHCHUD.xcconfig */;
 			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/SHCHUD";
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/SHCHUD/ResourceBundle-Photo-Info.plist";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_NAME = Photo;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
 			};
-			name = Debug;
+			name = Release;
 		};
-		CDD0048FF79E772F7E41FEB621F117E8 /* Debug */ = {
+		BDEB6C1F7633717749AFE42BA6BC9AD5 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D3A451499F6CA387F70B8D0D47EE2DC6 /* SHCHUD.xcconfig */;
+			baseConfigurationReference = 1665A9AE10BEB0F6DC54BF5436CDF025 /* SHCHUD.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/SHCHUD/SHCHUD-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/SHCHUD/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/SHCHUD/SHCHUD.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_NAME = SHCHUD;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -646,13 +640,72 @@
 			};
 			name = Debug;
 		};
-		DD4527CA649DFA4F71088BD253EE506E /* Release */ = {
+		E4B68EE12B21C47CB798D9B1ECA6D7A7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D3A451499F6CA387F70B8D0D47EE2DC6 /* SHCHUD.xcconfig */;
 			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/SHCHUD";
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		FD6AAEA1E0B98F700313C912FB7D7C3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1665A9AE10BEB0F6DC54BF5436CDF025 /* SHCHUD.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/SHCHUD";
 				INFOPLIST_FILE = "Target Support Files/SHCHUD/ResourceBundle-Photo-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				PRODUCT_NAME = Photo;
@@ -660,41 +713,6 @@
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		F2D40A6E051291C6D4D3BC2E10CB4F0A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D3A451499F6CA387F70B8D0D47EE2DC6 /* SHCHUD.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/SHCHUD/SHCHUD-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SHCHUD/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SHCHUD/SHCHUD.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = SHCHUD;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -704,8 +722,8 @@
 		0B9481E19704CD1109A3D103A02FC3B3 /* Build configuration list for PBXNativeTarget "SHCHUD" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CDD0048FF79E772F7E41FEB621F117E8 /* Debug */,
-				F2D40A6E051291C6D4D3BC2E10CB4F0A /* Release */,
+				BDEB6C1F7633717749AFE42BA6BC9AD5 /* Debug */,
+				242240AF161C669964DD098180E7CC78 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -713,8 +731,8 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1C7D17A37D091C98D2F0DD886C3A9320 /* Debug */,
-				34FE9531DA9AF2820790339988D5FF41 /* Release */,
+				E4B68EE12B21C47CB798D9B1ECA6D7A7 /* Debug */,
+				B254DAA6CF0CE39F4A3D11B90A7E059A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -722,8 +740,8 @@
 		C5ECEE24735BF5CA3A8DF159B6D6368D /* Build configuration list for PBXNativeTarget "SHCHUD-Photo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C140E893045E50D3AE965DCBB25D3EC9 /* Debug */,
-				DD4527CA649DFA4F71088BD253EE506E /* Release */,
+				5E1EC94271C0BD9236B2B1CA6F36DAC9 /* Debug */,
+				FD6AAEA1E0B98F700313C912FB7D7C3A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -731,8 +749,8 @@
 		E65BC114273EC2EAC39976A89E0C8660 /* Build configuration list for PBXNativeTarget "Pods-testHUD" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7A010D8CAB2C222D69F6EFBEAD2D12F9 /* Debug */,
-				48F2209E9DD99951E52DCF6B570C01CB /* Release */,
+				928D40F9CB19E99937DA4105030A998A /* Debug */,
+				844BD3ED9FBE96AF6BFAE7667E2D8FBA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

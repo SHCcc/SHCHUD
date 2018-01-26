@@ -21,6 +21,8 @@ enum Notice {
 }
 
 public class HUD: UIView {
+  let labelFont: CGFloat = 15
+  
   static let sharedView = HUD()
   
   var GCDLock = false
@@ -52,11 +54,9 @@ extension HUD {
     windows?.addSubview(self)
     isUserInteractionEnabled = false
     
-    
     let width = (labelSize.width < 110 ? 110 : labelSize.width) + 20
     let height = imageSize.height + labelSize.height + 30
     frame = CGRect(x: (windows!.frame.width - width) / 2, y: (windows!.frame.height - height) / 2, width: width, height: height)
-    
     
     layoutIfNeeded()
     buildSubView()
@@ -70,13 +70,13 @@ extension HUD {
     
     backView.frame = CGRect(x: 0, y: 0, width: frame.width, height: frame.height)
     backView.backgroundColor = UIColor.black
-    backView.alpha = 0.7
+    backView.alpha = 1
     backView.layer.cornerRadius = 15
     backView.layer.masksToBounds = true
     
     imageView.tintColor = UIColor.white
     
-    label.font = UIFont.systemFont(ofSize: 16)
+    label.font = UIFont.systemFont(ofSize: labelFont)
     label.textColor = UIColor.white
     label.numberOfLines = 0
   }
@@ -129,7 +129,7 @@ extension HUD {
     
     imageView.tintColor = UIColor.black
     
-    label.font = UIFont.systemFont(ofSize: 16)
+    label.font = UIFont.systemFont(ofSize: labelFont)
     label.textColor = UIColor.white
     label.numberOfLines = 1
     
@@ -144,12 +144,12 @@ extension HUD {
   
   private func buildMiddleView() {
     backView.backgroundColor = UIColor.black
-    backView.alpha = 0.7
+    backView.alpha = 1
     backView.layer.cornerRadius = 15
     
     imageView.removeFromSuperview()
     
-    label.font = UIFont.systemFont(ofSize: 16)
+    label.font = UIFont.systemFont(ofSize: labelFont)
     label.textColor = UIColor.white
     label.numberOfLines = 0
     
@@ -169,7 +169,7 @@ extension HUD {
     
     imageView.removeFromSuperview()
     
-    label.font = UIFont.systemFont(ofSize: 16)
+    label.font = UIFont.systemFont(ofSize: labelFont)
     label.textColor = UIColor.white
     label.numberOfLines = 0
     
@@ -219,29 +219,55 @@ extension HUD {
     // 计算文本
     calculateSize(string: string)
     
+    
+    /// 设置图片
+    func setImage(name: String) {
+      imageView.image = UIImage(named: name,
+                                in: bundle,
+                                compatibleWith: nil)?.withRenderingMode(.alwaysTemplate)
+      if status == .info { createCircle()
+      }else { clearCircle() }
+    }
+    /// 创建一个中心圆
+    func createCircle() {
+      if imageView.subviews.count > 0 { return }
+      imageView.layer.cornerRadius = 20
+      imageView.layer.masksToBounds = true
+      let view = UIView()
+      view.backgroundColor = UIColor.black
+      view.alpha = 1
+      view.frame = CGRect(x: 2, y: 2, width: 36, height: 36)
+      view.layer.cornerRadius = 18
+//      view.layer.masksToBounds = true
+      imageView.addSubview(view)
+    }
+    /// 移除中心圆
+    func clearCircle() {
+      if imageView.subviews.count == 0 { return }
+      imageView.layer.cornerRadius = 0
+      imageView.layer.masksToBounds = true
+      for view in imageView.subviews {
+        view.removeFromSuperview()
+      }
+    }
+    
     switch status {
     case .info:
       removeTimer()
       addAnimation()
-      imageView.image = UIImage(named: "rotation.png",
-                                in: bundle,
-                                compatibleWith: nil)?.withRenderingMode(.alwaysTemplate)
+      setImage(name: "angle-mask.png")
+      imageSize = CGSize(width: 40, height: 40)
     case .success:
       imageView.layer.removeAllAnimations()
       beginTimer()
-      imageView.image = UIImage(named: "success.png",
-                                in: bundle,
-                                compatibleWith: nil)?.withRenderingMode(.alwaysTemplate)
+      setImage(name: "success.png")
+      imageSize = imageView.image!.size
     case .error:
       imageView.layer.removeAllAnimations()
       beginTimer()
-      imageView.image = UIImage(named: "error.png",
-                                in: bundle,
-                                compatibleWith: nil)?.withRenderingMode(.alwaysTemplate)
+      setImage(name: "error.png")
+      imageSize = imageView.image!.size
     }
-    
-    // 计算图片
-    imageSize = imageView.image?.size ?? CGSize(width: 50, height: 50)
     buildUI()
   }
   
