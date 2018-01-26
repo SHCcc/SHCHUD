@@ -22,6 +22,7 @@ enum Notice {
 
 public class HUD: UIView {
   let labelFont: CGFloat = 15
+  let backColor: UIColor = #colorLiteral(red: 0, green: 0, blue: 0, alpha: 1)
   
   static let sharedView = HUD()
   
@@ -69,8 +70,8 @@ extension HUD {
     addSubview(label)
     
     backView.frame = CGRect(x: 0, y: 0, width: frame.width, height: frame.height)
-    backView.backgroundColor = UIColor.black
-    backView.alpha = 1
+    backView.backgroundColor = backColor
+//    backView.alpha = 1
     backView.layer.cornerRadius = 15
     backView.layer.masksToBounds = true
     
@@ -143,8 +144,8 @@ extension HUD {
   }
   
   private func buildMiddleView() {
-    backView.backgroundColor = UIColor.black
-    backView.alpha = 1
+    backView.backgroundColor = backColor
+//    backView.alpha = 1
     backView.layer.cornerRadius = 15
     
     imageView.removeFromSuperview()
@@ -234,11 +235,11 @@ extension HUD {
       imageView.layer.cornerRadius = 20
       imageView.layer.masksToBounds = true
       let view = UIView()
-      view.backgroundColor = UIColor.black
-      view.alpha = 1
+      view.backgroundColor = backColor
+//      view.alpha = 1
       view.frame = CGRect(x: 2, y: 2, width: 36, height: 36)
       view.layer.cornerRadius = 18
-//      view.layer.masksToBounds = true
+      view.layer.masksToBounds = true
       imageView.addSubview(view)
     }
     /// 移除中心圆
