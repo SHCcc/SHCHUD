@@ -81,7 +81,7 @@ class ViewController: UIViewController {
 
   
   @objc func dissmiss() {
-    HUD.dissmiss()
+    HUD.dismiss()
     print("dissmiss")
   }
   

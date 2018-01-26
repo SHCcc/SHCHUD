@@ -200,7 +200,7 @@ extension HUD {
   }
   
   @objc func endTimer() {
-    dissmiss()
+    dismiss()
     stopAnimation = false
   }
   
@@ -302,7 +302,7 @@ extension HUD {
     buildUI()
   }
   
-  func dissmiss() {
+  func dismiss() {
     if self.superview == nil { return }
     self.removeFromSuperview()
     removeTimer()
@@ -323,36 +323,37 @@ extension HUD {
 }
 
 public extension HUD {
+  /// 加载中
   public class func show(info status: String) {
     sharedView.show(status: .info, string: status)
   }
-  
+  /// 成功
   public class func show(success status: String) {
     sharedView.show(status: .success ,string: status)
   }
-  
+  /// 失败
   public class func show(false status: String) {
     sharedView.show(status: .error ,string: status)
   }
-  
+  /// 顶部通知
   public class func showTop(string status: String, isShowImage: Bool = true) {
     sharedView.notice(type: .top, string: status, isShowImage: isShowImage)
   }
-  
+  /// 文字通知
   public class func show(string status: String) {
     sharedView.notice(type: .string, string: status)
   }
-  
+  /// 底部通知
   public class func showBottom(string status: String) {
     sharedView.notice(type: .bottom, string: status)
   }
-  
+  /// 图片通知
   public class func showImage(image: UIImage) {
     sharedView.showImage(image: image)
   }
-  
-  public class func dissmiss() {
-    sharedView.dissmiss()
+  /// 移除通知
+  public class func dismiss() {
+    sharedView.dismiss()
   }
 }
 
