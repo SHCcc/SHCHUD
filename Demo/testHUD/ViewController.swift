@@ -87,7 +87,7 @@ class ViewController: UIViewController {
   
   @objc func success() {
     let str = textField.text!.isEmpty ? "加载成功" : textField.text ?? ""
-    HUD.show(success: str)
+    HUD.show(success: str, isShowMask: true)
     print("success")
   }
   
@@ -120,7 +120,7 @@ class ViewController: UIViewController {
   }
   override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
     let str = textField.text!.isEmpty ? "加载中" : textField.text ?? ""
-    HUD.show(info: str)
+    HUD.show(info: str, isShowMask: true)
     print("info")
 
   }

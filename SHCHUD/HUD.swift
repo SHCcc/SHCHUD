@@ -33,6 +33,7 @@ public class HUD: UIView {
   let backView = UIView()
   let imageView = UIImageView()
   let label = UILabel()
+  var backMaskView: UIView?
   
   var bundle: Bundle {
     get{
@@ -55,6 +56,12 @@ extension HUD {
   fileprivate func buildUI() {
     let windows = UIApplication.shared.keyWindow
     windows?.addSubview(self)
+    if backMaskView != nil {
+      windows?.addSubview(backMaskView!)
+      backMaskView?.frame = windows!.frame
+      backMaskView?.backgroundColor = UIColor.clear
+      backMaskView?.alpha = 0.3
+    }
     isUserInteractionEnabled = false
     
     let width = (labelSize.width < 110 ? 110 : labelSize.width) + 20
@@ -105,6 +112,12 @@ extension HUD {
 extension HUD {
   fileprivate func buildUI(type: Notice) {
     let windows = UIApplication.shared.keyWindow
+    if backMaskView != nil {
+      windows?.addSubview(backMaskView!)
+      backMaskView?.frame = windows!.frame
+      backMaskView?.backgroundColor = UIColor.clear
+      backMaskView?.alpha = 0.3
+    }
     windows?.addSubview(self)
     
     frame = (windows?.frame) ?? CGRect.zero
@@ -332,6 +345,10 @@ extension HUD {
     self.removeFromSuperview()
     removeTimer()
     HUD.sharedView.removeFromSuperview()
+    if backMaskView != nil {
+      backMaskView?.removeFromSuperview()
+      backMaskView = nil
+    }
   }
 }
 
@@ -349,15 +366,18 @@ extension HUD {
 
 public extension HUD {
   /// 加载中
-  public class func show(info status: String) {
+  public class func show(info status: String, isShowMask: Bool = false) {
+    if isShowMask { sharedView.backMaskView = UIView() }
     sharedView.show(status: .info, string: status)
   }
   /// 成功
-  public class func show(success status: String) {
+  public class func show(success status: String, isShowMask: Bool = false) {
+    if isShowMask { sharedView.backMaskView = UIView() }
     sharedView.show(status: .success ,string: status)
   }
   /// 失败
-  public class func show(false status: String) {
+  public class func show(false status: String, isShowMask: Bool = false) {
+    if isShowMask { sharedView.backMaskView = UIView() }
     sharedView.show(status: .error ,string: status)
   }
   /// 顶部通知
@@ -365,7 +385,8 @@ public extension HUD {
     sharedView.notice(type: .top, string: status, isShowImage: isShowImage)
   }
   /// 文字通知
-  public class func show(string status: String) {
+  public class func show(string status: String, isShowMask: Bool = true) {
+    if isShowMask { sharedView.backMaskView = UIView() }
     sharedView.notice(type: .string, string: status)
   }
   /// 底部通知
@@ -373,7 +394,8 @@ public extension HUD {
     sharedView.notice(type: .bottom, string: status)
   }
   /// 图片通知
-  public class func showImage(image: UIImage) {
+  public class func showImage(image: UIImage, isShowMask: Bool = true) {
+    if isShowMask { sharedView.backMaskView = UIView() }
     sharedView.showImage(image: image)
   }
   /// 移除通知
