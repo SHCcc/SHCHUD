@@ -87,7 +87,7 @@ class ViewController: UIViewController {
   
   @objc func success() {
     let str = textField.text!.isEmpty ? "加载成功" : textField.text ?? ""
-    HUD.show(success: str, isShowMask: true)
+    HUD.show(success: str, duration: 3.0)
     print("success")
   }
   

@@ -30,6 +30,8 @@ public class HUD: UIView {
   
   var GCDLock = false
   
+  var duration: TimeInterval = 1.5
+  
   let backView = UIView()
   let imageView = UIImageView()
   let label = UILabel()
@@ -136,6 +138,7 @@ extension HUD {
       buildBottomView()
     }
   }
+  
   private func buildTopView() {
     frame = CGRect(x: 0, y: UIApplication.shared.statusBarFrame.height, width: frame.width, height: 44)
     backView.frame = CGRect(x: 0, y: -44, width: frame.width, height: 44)
@@ -205,7 +208,7 @@ extension HUD {
       timer?.invalidate()
       timer = nil
     }
-    timer = Timer.scheduledTimer(timeInterval: 1.5,
+    timer = Timer.scheduledTimer(timeInterval: duration,
                                  target: self,
                                  selector: #selector(endTimer),
                                  userInfo: nil,
@@ -228,8 +231,9 @@ extension HUD {
 }
 
 extension HUD {
-  fileprivate func show(status: Status, string: String) {
+  fileprivate func show(status: Status, string: String, duration: TimeInterval = 1.5) {
     if GCDLock { return }
+    self.duration = duration
     // 计算文本
     calculateSize(string: string)
     
@@ -241,6 +245,7 @@ extension HUD {
       if status == .info { createCircle()
       }else { clearCircle() }
     }
+    
     /// 创建一个中心圆
     func createCircle() {
       if imageView.subviews.count > 0 { return }
@@ -253,6 +258,7 @@ extension HUD {
       view.layer.masksToBounds = true
       imageView.addSubview(view)
     }
+    
     /// 移除中心圆
     func clearCircle() {
       if imageView.subviews.count == 0 { return }
@@ -283,8 +289,9 @@ extension HUD {
     buildUI()
   }
   
-  fileprivate func notice(type :Notice, string: String, isShowImage: Bool = true) {
+  fileprivate func notice(type :Notice, string: String, isShowImage: Bool = true, duration: TimeInterval = 1.5) {
     if GCDLock { return }
+    self.duration = duration
     imageView.layer.removeAllAnimations()
     removeTimer()
     calculateSize(string: string)
@@ -329,7 +336,8 @@ extension HUD {
     }
   }
   
-  fileprivate func showImage(image: UIImage) {
+  fileprivate func showImage(image: UIImage, duration: TimeInterval = 1.5) {
+    self.duration = duration
     stopAnimation = true
     imageView.layer.removeAllAnimations()
     imageSize = image.size
@@ -371,32 +379,32 @@ public extension HUD {
     sharedView.show(status: .info, string: status)
   }
   /// 成功
-  public class func show(success status: String, isShowMask: Bool = false) {
+  public class func show(success status: String, isShowMask: Bool = false, duration: TimeInterval = 1.5) {
     if isShowMask { sharedView.backMaskView = UIView() }
-    sharedView.show(status: .success ,string: status)
+    sharedView.show(status: .success ,string: status, duration: duration)
   }
   /// 失败
-  public class func show(false status: String, isShowMask: Bool = false) {
+  public class func show(false status: String, isShowMask: Bool = false, duration: TimeInterval = 1.5) {
     if isShowMask { sharedView.backMaskView = UIView() }
-    sharedView.show(status: .error ,string: status)
+    sharedView.show(status: .error ,string: status, duration: duration)
   }
   /// 顶部通知
-  public class func showTop(string status: String, isShowImage: Bool = true) {
-    sharedView.notice(type: .top, string: status, isShowImage: isShowImage)
+  public class func showTop(string status: String, isShowImage: Bool = true, duration: TimeInterval = 1.5) {
+    sharedView.notice(type: .top, string: status, isShowImage: isShowImage, duration: duration)
   }
   /// 文字通知
-  public class func show(string status: String, isShowMask: Bool = true) {
+  public class func show(string status: String, isShowMask: Bool = true, duration: TimeInterval = 1.5) {
     if isShowMask { sharedView.backMaskView = UIView() }
-    sharedView.notice(type: .string, string: status)
+    sharedView.notice(type: .string, string: status, duration: duration)
   }
   /// 底部通知
-  public class func showBottom(string status: String) {
-    sharedView.notice(type: .bottom, string: status)
+  public class func showBottom(string status: String, duration: TimeInterval = 1.5) {
+    sharedView.notice(type: .bottom, string: status, duration: duration)
   }
   /// 图片通知
-  public class func showImage(image: UIImage, isShowMask: Bool = true) {
+  public class func showImage(image: UIImage, isShowMask: Bool = true, duration: TimeInterval = 1.5) {
     if isShowMask { sharedView.backMaskView = UIView() }
-    sharedView.showImage(image: image)
+    sharedView.showImage(image: image, duration: duration)
   }
   /// 移除通知
   public class func dismiss() {
