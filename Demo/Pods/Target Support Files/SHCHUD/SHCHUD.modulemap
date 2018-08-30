@@ -1,6 +1,0 @@
-framework module SHCHUD {
-  umbrella header "SHCHUD-umbrella.h"
-
-  export *
-  module * { export * }
-}
