@@ -15,5 +15,5 @@ s.requires_arc = true
 s.source_files  = "SHCHUD/*/**", "SHCHUD/**"
 s.resource_bundles = {'Photo' => 'SHCHUD/Photo.bundle/*.png'}
 
-s.pod_target_xcconfig = { 'SWIFT_VERSION' => '4.0' }
+s.swift_version = '4.0'
 end
