@@ -46,7 +46,7 @@ HUD.show(false: String, isShowMask: Bool = false, duration: TimeInterval = 1.5)
 
  ```
 - string: 顶部提示语
-- isShowMask: 是否禁止页面点击
+- isShowImage: 是否显示图片
 - duration: 持续时间
 HUD.showTop(string: String, isShowImage: Bool = true, duration: TimeInterval = 1.5)
  ```
@@ -64,7 +64,6 @@ HUD.show(string: String, isShowMask: Bool = true, duration: TimeInterval = 1.5)
 
   ```
 - string: 底部提示语
-- isShowMask: 是否禁止页面点击
 - duration: 持续时间
 HUD.showBottom(string: String, duration: TimeInterval = 1.5) 
   ```
