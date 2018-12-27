@@ -80,8 +80,6 @@ HUD.showImage(image: UIImage, isShowMask: Bool = true, duration: TimeInterval = 
 - 移除通知
 
 ```
-
 HUD.dismiss()
-
 ```
 
