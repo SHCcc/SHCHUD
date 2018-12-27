@@ -120,7 +120,6 @@ class ViewController: UIViewController {
   }
   override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
     let str = textField.text!.isEmpty ? "加载中" : textField.text ?? ""
-//    HUD.show(info: str, isShowMask: true)
     HUD.show(info: str)
     print("info")
 
